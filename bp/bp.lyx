@@ -1,0 +1,248 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language french
+\inputencoding utf8
+\font_roman palatino
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_title "EquiDist"
+\pdf_author "Julien Richard-Foy, Christopher Humphries"
+\pdf_keywords "retailing, fair-trade"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+EquiDist
+\end_layout
+
+\begin_layout Author
+Julien Richard-Foy
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+and{}
+\end_layout
+
+\end_inset
+
+Christopher Humphries
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Executive Summary
+\end_layout
+
+\begin_layout Standard
+Concise summary of the business opportunity covering all important components
+ of the plan.
+ Demonstrates our knowledge of the business opportunity and proves that
+ any investment in the venture will yield a good return.
+\end_layout
+
+\begin_layout Standard
+Capture the interest of the reader.
+ Create excitement.
+ Less than two pages.
+\end_layout
+
+\begin_layout Itemize
+Introduction
+\end_layout
+
+\begin_layout Itemize
+Product/service distinctive features
+\end_layout
+
+\begin_layout Itemize
+Target market summary
+\end_layout
+
+\begin_layout Itemize
+Competitive analysis
+\end_layout
+
+\begin_layout Itemize
+Key marketing strategies
+\end_layout
+
+\begin_layout Itemize
+Supplier summary
+\end_layout
+
+\begin_layout Itemize
+Management team overview
+\end_layout
+
+\begin_layout Itemize
+Summary of financial requirements and projections
+\end_layout
+
+\begin_layout Part
+Notre projet
+\end_layout
+
+\begin_layout Itemize
+Who are we? Nouvelle entreprise, secteur de la vente en ligne (de produits
+ alimentaires dans un premier temps au moins), structure juridique, équipe.
+\end_layout
+
+\begin_layout Itemize
+What do we do? Vision, principaux objectifs.
+\end_layout
+
+\begin_layout Itemize
+What do we bring? Caractère unique
+\end_layout
+
+\begin_layout Itemize
+To which market?
+\end_layout
+
+\begin_layout Part
+Marketing Plan
+\end_layout
+
+\begin_layout Itemize
+Étude de marché.
+ Macro puis micro.
+ Éléments sociaux, économiques, environnementaux, technologiques.
+\end_layout
+
+\begin_layout Itemize
+Facteurs de succès
+\end_layout
+
+\begin_layout Itemize
+Obstacles
+\end_layout
+
+\begin_layout Itemize
+Marché ciblé (âge, revenu).
+ Comment allons-nous l’atteindre
+\begin_inset space ~
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Itemize
+Concurrents (directs et indirects).
+ Positionnement de nos prix.
+\end_layout
+
+\begin_layout Itemize
+Promotional Strategy.
+\end_layout
+
+\begin_layout Part
+Operational Plan
+\end_layout
+
+\begin_layout Itemize
+Prestataires.
+ Hébergement Web, transport des commandes.
+\end_layout
+
+\begin_layout Itemize
+Cadre institutionnel.
+ Environnement juridique.
+ Douanes.
+ Notre business est légal.
+\end_layout
+
+\begin_layout Itemize
+Développement du site en lui-même.
+ R&D.
+ Coûts, temps.
+\end_layout
+
+\begin_layout Itemize
+Besoins humains.
+ Temps de travail, types de postes.
+ Prospectives.
+\end_layout
+
+\begin_layout Part
+Prévisions financières
+\end_layout
+
+\begin_layout Itemize
+Projections sur 3 ans.
+ Flux de trésorerie.
+ Plusieurs scénarios.
+\end_layout
+
+\begin_layout Itemize
+1ère année plus détaillée.
+\end_layout
+
+\begin_layout Itemize
+Combien de fonds nécessaires
+\begin_inset space ~
+\end_inset
+
+? Comment rembourser les emprunts
+\begin_inset space ~
+\end_inset
+
+?
+\end_layout
+
+\end_body
+\end_document
