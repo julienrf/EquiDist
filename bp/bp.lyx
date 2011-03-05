@@ -536,13 +536,15 @@ Prévisions financières
 Nous avons travaillé sur un scénario pessimiste et un scénario optimiste
  pour estimer nos recettes.
  Le scénario optimiste reste cependant très prudent car il ne correspond
- à une pénétration du marché que de 3% (ceci sans même prendre en compte
- le fait que ce marché a tendance à être encore en expansion).
-\end_layout
+ à une pénétration du marché que de 
+\begin_inset Formula $1.25\%$
+\end_inset
 
-\begin_layout Standard
-Il nous faut atteindre au moins 300 commandes mensuelles pour couvrir nos
- frais de fonctionnement.
+ (ceci sans même prendre en compte le fait que ce marché est toujours en
+ expansion).
+ Le scénario pessimiste prend pour hypothèses que le temps de développement
+ du site serait deux fois plus long et surtout que la pénétration dans le
+ marché serait deux fois plus lente.
 \end_layout
 
 \begin_layout Standard
@@ -555,8 +557,65 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename previsionnel.png
-	scale 75
+	filename ventes.svg
+	width 13cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:ventes"
+
+\end_inset
+
+Évolution des ventes sur les quatre premières années
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:ventes"
+
+\end_inset
+
+ montre l’allure de l’évolution des ventes selon les deux scénarios.
+\end_layout
+
+\begin_layout Standard
+Il nous faut atteindre au moins 300 commandes mensuelles pour couvrir nos
+ frais de fonctionnement.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename previsionnel.svg
+	width 13cm
 
 \end_inset
 
@@ -584,6 +643,85 @@ name "fig:budget"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+La figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:budget"
+
+\end_inset
+
+ donne une vision à moyen terme de l’évolution des dépenses cumulées et
+ des recettes cumulées sur les trois premières années d’activité, selon
+ les deux scénarios possibles.
+ On observe que le bilan devient positif à partir du 
+\begin_inset Formula $20^{e}$
+\end_inset
+
+ mois d’activité (resp.
+ 
+\begin_inset Formula $34^{e}$
+\end_inset
+
+ mois) pour le scénario optimiste (resp.
+ pessimiste).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename resultat.svg
+	width 13cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:resultat"
+
+\end_inset
+
+Évolution du résultat sur les trois premières années d’activité
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:resultat"
+
+\end_inset
+
+ montre l’évolution du résultat net de l’entreprise.
+ La partie négative correspond à un déficit maximal de 57 k€ (resp.
+ 108 k€) pour le scénario optimiste (resp.
+ pessimiste).
 \end_layout
 
 \begin_layout Standard
