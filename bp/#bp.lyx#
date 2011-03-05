@@ -481,7 +481,7 @@ Pour les besoins spécifiques d’EquiDist aucune solution existante de système
  Il est nécessaire de développer un système innovant, capable de faciliter
  le regroupement des commandes par proximité géographique.
  Cette période de recherche et développement est estimée à 
-\begin_inset Formula $4\, ingénieurs*mois$
+\begin_inset Formula $5\, ingénieurs*mois$
 \end_inset
 
 , soit environ 10
@@ -623,10 +623,7 @@ type
 \end_inset
 
 ).
-\end_layout
-
-\begin_layout Standard
-Par exemple, une commande regroupant 3 foyers auprès d’un producteur de
+ Par exemple, une commande regroupant 3 foyers auprès d’un producteur de
  noix peut contenir 4 filets de 5 kg de noix et 3 bouteilles de 1 litre
  d’huile de noix, ce qui correspond à un prix (payé au producteur) de 90
 \begin_inset space ~
@@ -640,12 +637,7 @@ kg, soit 15
 \begin_inset space ~
 \end_inset
 
-€ de frais de ports, ce qui conduit au final à une commission d’environ
- 
-\begin_inset Formula $(90+15)*13\%=16\,\text{€}$
-\end_inset
-
- pour EquiDist.
+€ de frais de ports, ce qui conduit finalement à une commission de 
 \end_layout
 
 \begin_layout Standard
