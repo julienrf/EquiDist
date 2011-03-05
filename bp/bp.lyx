@@ -16,7 +16,7 @@
 \font_tt_scale 100
 
 \graphics default
-\paperfontsize default
+\paperfontsize 12
 \spacing single
 \use_hyperref true
 \pdf_title "EquiDist"
@@ -27,7 +27,7 @@
 \pdf_bookmarksopen false
 \pdf_bookmarksopenlevel 1
 \pdf_breaklinks false
-\pdf_pdfborder false
+\pdf_pdfborder true
 \pdf_colorlinks false
 \pdf_backref false
 \pdf_pdfusetitle true
@@ -59,7 +59,11 @@ EquiDist
 \end_layout
 
 \begin_layout Author
-Julien Richard-Foy
+Julien 
+\noun on
+Richard-Foy
+\noun default
+
 \begin_inset ERT
 status open
 
@@ -72,7 +76,9 @@ and{}
 
 \end_inset
 
-Christopher Humphries
+Christopher 
+\noun on
+Humphries
 \end_layout
 
 \begin_layout Standard
@@ -84,18 +90,118 @@ LatexCommand tableofcontents
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part
-Executive Summary
+Introduction
 \end_layout
 
 \begin_layout Standard
+Les circuits de distribution utilisent des espaces de stockage intermédiaire
+ ayant un coût non négligeable.
+ Des circuits «
+\begin_inset space ~
+\end_inset
+
+courts
+\begin_inset space ~
+\end_inset
+
+» émergent, permettant d’accéder aux productions locales, mais il n’existe
+ aujourd’hui aucun moyen d’accéder aux productions plus éloignées sans passer
+ par de coûteux intermédiaires.
+\end_layout
+
+\begin_layout Standard
+Par ailleurs, ce système, onéreux pour les consommateurs, ne rémunère pas
+ correctement les producteurs, comme en témoignent les récentes manifestations
+ à ce sujet.
+ Ils ne sont d’ailleurs pas les seuls à exprimer un désir de changement,
+ les consommateurs recherchent plus de transparence sur les produits qu’ils
+ consomment, comme en témoigne par exemple le succès des initiatives de
+ type AMAP
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+AMAP
+\begin_inset space ~
+\end_inset
+
+: Association pour le Maintien d’une Agriculture Paysanne
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Enfin, la grande distribution propose surtout des conditionnements de petite
+ taille, source de nombreux emballages, et jette régulièrement des invendus,
+ ne contribuant pas, ce faisant, à une gestion durable de l’environnement.
+\end_layout
+
+\begin_layout Standard
+Tous ces problèmes soulignent le besoin de nouveaux circuits de distribution.
+\end_layout
+
+\begin_layout Standard
+EquiDist est un site Web mettant en relation des producteurs et des consommateur
+s.
+ Il permet d’une part aux producteurs de présenter leur travail et leurs
+ produits, et, d’autre part, aux consommateurs de les commander en ligne
+ en se regroupant géographiquement.
+\end_layout
+
+\begin_layout Standard
+Ainsi, EquiDist adresse tous les problèmes évoqués précédemment.
+ En effet, en supprimant le stockage intermédiaire EquiDist assume des coûts
+ de fonctionement particulièrement faibles permettant de proposer des prix
+ attractifs.
+ Ensuite, EquiDist référence les producteurs sans faire pression sur eux
+ (ils fixent eux-mêmes leurs prix) et les rapproche des consommateurs, donnant
+ à ces derniers plus de visibilité sur les Hommes derrière les produits
+ qu’ils consomment.
+ Enfin, EquiDist encourage les commandes en gros conditionnements (bidon
+ de 3 litres d’huile d’olive p.
+ ex.) et utilise un ensemble de points relais pour la livraison des produits
+ ce qui génère significativement moins d’émissions de 
+\begin_inset Formula $CO_{2}$
+\end_inset
+
+ que les circuits classiques
+\begin_inset CommandInset citation
+LatexCommand cite
+key "KialaEcolo,BuyDotCom08"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+EquiDist s’adresse en particulier aux urbains sensibles aux valeurs écologistes
+ et sociales.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
 Concise summary of the business opportunity covering all important components
  of the plan.
  Demonstrates our knowledge of the business opportunity and proves that
  any investment in the venture will yield a good return.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Capture the interest of the reader.
  Create excitement.
  Less than two pages.
@@ -133,9 +239,39 @@ Management team overview
 Summary of financial requirements and projections
 \end_layout
 
-\begin_layout Part
-Notre projet
+\end_inset
+
+
 \end_layout
+
+\begin_layout Part
+EquiDist
+\end_layout
+
+\begin_layout Standard
+L’activité de l’entreprise consiste à mettre en relation des consommateurs
+ avec des producteurs, leur permettre de passer des commandes, et également
+ à mettre en relation des consommateurs entre eux selon leur proximité géographi
+que.
+ Notre secteur d’activité est la vente en ligne de produits alimentaires.
+\end_layout
+
+\begin_layout Standard
+Contrairement à tous les autres acteurs de ce secteur, EquiDist ne fait
+ pas de négoce.
+ Le service que nous fournissons est la mise en relation de personnes qui
+ gagnent à se connaître (les producteurs avec les consommateurs et les consommat
+eurs entre eux).
+ Nous ne stockons aucun produit, la vente est directe.
+\end_layout
+
+\begin_layout Standard
+Les clients récupèrent les produits chez eux ou dans un point relais Kiala.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
 
 \begin_layout Itemize
 Who are we? Nouvelle entreprise, secteur de la vente en ligne (de produits
@@ -154,9 +290,125 @@ What do we bring? Caractère unique
 To which market?
 \end_layout
 
-\begin_layout Part
-Marketing Plan
+\end_inset
+
+
 \end_layout
+
+\begin_layout Part
+Plan commercial
+\end_layout
+
+\begin_layout Section
+Contexte
+\end_layout
+
+\begin_layout Standard
+Les sociétés de vente en ligne sont en grande augmentation, cependant les
+ produits alimentaires ne représentent que 14% de marché.
+ Il semble qu’il y a de la place pour faire émerger de nouveaux modes de
+ distribution pour la vente en ligne de produits alimentaires
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CredocVPAL09"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Le coût de l’énergie augmente plus vite que les revenus, le problème du
+ changement climatique pèse sur les activités économiques.
+ La vente en ligne et la vente directe permettent d’économiser de l’énergie,
+ donc des émissions de 
+\begin_inset Formula $CO_{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Les producteurs manifestent de plus en plus leur sentiment d’injustice et
+ de manque de reconnaissance
+\begin_inset space ~
+\end_inset
+
+: ils ne fixent pas les prix des produits qu’ils vendent et en souffrent.
+\end_layout
+
+\begin_layout Standard
+Le Web est un moyen formidable de relier les gens entre eux, à condition
+ qu’ils sachent qu’ils aient intérêt à le faire.
+\end_layout
+
+\begin_layout Section
+Concurrence
+\end_layout
+
+\begin_layout Standard
+Les points forts d’EquiDist par rapport à la concurrence sont
+\begin_inset space ~
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Description
+Économique Les commandes groupées reviennent moins cher que chez tous les
+ autres concurrents (pour un produit de même qualité)
+\begin_inset space ~
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Description
+Écologique Le bilan carbone est nettement meilleur qu’avec tous les autres
+ systèmes
+\begin_inset space ~
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Description
+Social Pas de pression sur les producteurs, vie de quartier renforcée.
+\end_layout
+
+\begin_layout Standard
+Le principal inconvénient de notre système est que pour être vraiment plus
+ compétitif que la grande distribution (au niveau des prix), il faut que
+ les clients se regroupent entre eux (les frais de port peuvent être divisés
+ par trois), ce qui n’est pas habituel, nécessite un effort supplémentaire
+ et rallonge les délais d’accès aux produits (alors que dans un supermarché
+ le produit est disponible immédiatement).
+\end_layout
+
+\begin_layout Section
+Marché ciblé et stratégie
+\end_layout
+
+\begin_layout Standard
+EquiDist s’adresse plus particulièrement à la frange de la population sensible
+ à la notion de développement durable.
+\end_layout
+
+\begin_layout Standard
+La part des coûts variables de notre activité étant faible, notre stratégie
+ consiste à positionner des prix bas (c’est-à-dire prélever une faible commissio
+n sur les commandes effectuées par les clients) et chercher à s’étendre
+ le plus rapidement possible sur le territoire (de façon à toucher le plus
+ rapidement possible un maximum de clients).
+ Cependant, afin d’éviter des problèmes de gestion dus à une montée en charge
+ trop rapide, nous prévoyons de démarrer notre activité dans un secteur
+ géographique réduit (Rennes Métropole) et nous ne nous étendrons que lorsque
+ notre système sera bien rôdé.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
 
 \begin_layout Itemize
 Étude de marché.
@@ -190,9 +442,62 @@ Concurrents (directs et indirects).
 Promotional Strategy.
 \end_layout
 
-\begin_layout Part
-Operational Plan
+\end_inset
+
+
 \end_layout
+
+\begin_layout Part
+Fonctionnement
+\end_layout
+
+\begin_layout Standard
+EquiDist fournit un lieu virtuel de rencontre entre producteurs et consommateurs.
+ Son seul besoin de fonctionnement est un hébergement Web.
+\end_layout
+
+\begin_layout Standard
+Lorsqu’un client passe une commande, EquiDist la transmet au producteur
+ et à un service de transport (GLS ou La Poste).
+ Les points relais Kiala peuvent être utilisés pour réceptionner la commande.
+\end_layout
+
+\begin_layout Standard
+Cadre institutionnel
+\begin_inset space ~
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Standard
+Pour les besoins spécifiques d’EquiDist aucune solution existante de système
+ de vente en ligne n’est satisfaisante.
+ Il est nécessaire de développer un système innovant, capable de faciliter
+ le regroupement des commandes par proximité géographique.
+ Cette période de recherche et développement est estimée à 
+\begin_inset Formula $5\, ingénieurs*mois$
+\end_inset
+
+, soit environ 10
+\begin_inset space ~
+\end_inset
+
+k€.
+ En outre, quand le nombre de commandes mensuelles deviendra trop important,
+ il est possible que nous ayions besoin d’une personne supplémentaire dans
+ l’équipe, afin de réagir plus rapidement aux éventuels problèmes (lesquels
+\begin_inset space ~
+\end_inset
+
+?).
+ C’est pourquoi nous envisageons d’embaucher un troisième associé-salarié
+ après 2 ans et demi d’activité.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
 
 \begin_layout Itemize
 Prestataires.
@@ -218,9 +523,72 @@ Besoins humains.
  Prospectives.
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part
 Prévisions financières
 \end_layout
+
+\begin_layout Standard
+Nous avons travaillé sur un scénario pessimiste et un scénario optimiste
+ pour estimer nos recettes.
+ Le scénario optimiste reste cependant très prudent car il ne correspond
+ à une pénétration du marché que de 3% (ceci sans même prendre en compte
+ le fait que ce marché a tendance à être encore en expansion).
+\end_layout
+
+\begin_layout Standard
+Il nous faut atteindre au moins 300 commandes mensuelles pour couvrir nos
+ frais de fonctionnement.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename previsionnel.png
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:budget"
+
+\end_inset
+
+Évolution des dépenses et recettes sur les trois premières années d’activité
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
 
 \begin_layout Itemize
 Projections sur 3 ans.
@@ -242,6 +610,22 @@ Combien de fonds nécessaires
 \end_inset
 
 ?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "references"
+options "bibtotoc,plain"
+
+\end_inset
+
+
 \end_layout
 
 \end_body
