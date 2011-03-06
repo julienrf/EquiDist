@@ -98,7 +98,13 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Part
-Introduction
+
+\shape italic
+Executive Summary
+\end_layout
+
+\begin_layout Paragraph
+Contexte
 \end_layout
 
 \begin_layout Standard
@@ -151,24 +157,36 @@ Enfin, la grande distribution propose surtout des conditionnements de petite
 Tous ces problèmes soulignent le besoin de nouveaux circuits de distribution.
 \end_layout
 
+\begin_layout Paragraph
+Solution
+\end_layout
+
 \begin_layout Standard
 EquiDist est un site Web mettant en relation des producteurs et des consommateur
 s.
  Il permet d’une part aux producteurs de présenter leur travail et leurs
- produits, et, d’autre part, aux consommateurs de les commander en ligne
- en se regroupant géographiquement.
+ produits, et, d’autre part, aux consommateurs de commander en ligne en
+ se regroupant géographiquement.
 \end_layout
 
 \begin_layout Standard
-Ainsi, EquiDist adresse tous les problèmes évoqués précédemment.
+EquiDist adresse tous les problèmes évoqués précédemment.
  En effet, en supprimant le stockage intermédiaire EquiDist assume des coûts
  de fonctionement particulièrement faibles permettant de proposer des prix
  attractifs.
- Ensuite, EquiDist référence les producteurs sans faire pression sur eux
+ Nos estimations montrent des prix, à qualité de produit équivalente, du
+ même ordre de grandeur que ceux pratiqués dans la grande distribution.
+\end_layout
+
+\begin_layout Standard
+Ensuite, EquiDist référence les producteurs sans faire pression sur eux
  (ils fixent eux-mêmes leurs prix) et les rapproche des consommateurs, donnant
  à ces derniers plus de visibilité sur les Hommes derrière les produits
  qu’ils consomment.
- Enfin, EquiDist encourage les commandes en gros conditionnements (bidon
+\end_layout
+
+\begin_layout Standard
+Enfin, EquiDist encourage les commandes en gros conditionnements (bidon
  de 3 litres d’huile d’olive p.
  ex.) et utilise un ensemble de points relais pour la livraison des produits
  ce qui génère significativement moins d’émissions de 
@@ -182,12 +200,121 @@ key "KialaEcolo,BuyDotCom08"
 
 \end_inset
 
-.
+ et diminue encore les prix.
+ En fait, par rapport aux autres solutions de ventes en ligne de produits
+ alimentaires, EquiDist est environ deux fois moins cher.
+\end_layout
+
+\begin_layout Paragraph
+Marché
 \end_layout
 
 \begin_layout Standard
-EquiDist s’adresse en particulier aux urbains sensibles aux valeurs écologistes
- et sociales.
+Ce système est adapté à la distribution de tout type de produits non périssables
+ (céréales, oléagineux, biscuits, chocolats, vins, etc.) et vise en particulier
+ les urbains sensibles aux valeurs écologistes et sociales.
+\end_layout
+
+\begin_layout Paragraph
+Forces vives
+\end_layout
+
+\begin_layout Standard
+EquiDist est porté par deux étudiants en Master d’Informatique convaincus
+ que les nouvelles technologies doivent avant tout servir à améliorer le
+ système dans lequel ils vivent.
+ Ils pensent que les technologies de l’information sont un formidable moyen
+ de relier les personnes entre elles et de stimuler leur curiosité tout
+ en s’affranchissant des distances physiques qui les séparent.
+ Par ailleurs, leurs compétences en informatique sont complémentaires, l’un
+ étant spécialisé dans l’analyse et la conception d’architectures logicielles,
+ et l’autre dans la réalisation d’interfaces homme-machine ergonomiques
+ et inuitives.
+\end_layout
+
+\begin_layout Standard
+Notre ambition, à travers ce projet, est de
+\begin_inset space ~
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+redonner aux producteurs toute la reconnaissance qu’ils méritent
+\begin_inset space ~
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Itemize
+renforcer la prise de conscience, par les consommateurs, de l’acte de consommati
+on
+\begin_inset space ~
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Itemize
+soutenir les «
+\begin_inset space ~
+\end_inset
+
+petits
+\begin_inset space ~
+\end_inset
+
+» producteurs qui représentent des acteurs essentiels du paysage économique,
+ lui donnant son dynamisme et sa diversité
+\begin_inset space ~
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Itemize
+favoriser les liens sociaux dans les quartiers (par le regroupement des
+ commandes)
+\begin_inset space ~
+\end_inset
+
+;
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+C’est mal dit, non
+\begin_inset space ~
+\end_inset
+
+?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+réduire l’impact environnemental du processus de distribution.
+\end_layout
+
+\begin_layout Paragraph
+Trésorerie
+\end_layout
+
+\begin_layout Standard
+Nos estimations nous conduisent à attendre un résultat net positif au bout
+ de deux à trois ans maximum.
+ Un emprunt à hauteur de 100
+\begin_inset space ~
+\end_inset
+
+k€ sera nécessaire pour financer la phase de recherche et développement
+ (conception du système de vente en ligne) et la phase d’acquisition d’une
+ clientèle suffisante.
 \end_layout
 
 \begin_layout Standard
@@ -468,6 +595,51 @@ Lorsqu’un client passe une commande, EquiDist la transmet au producteur
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename business-model.pdf
+	width 13cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:business-model"
+
+\end_inset
+
+
+\shape italic
+Business Model
+\shape default
+ d’EquiDist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Cadre institutionnel
 \begin_inset space ~
 \end_inset
@@ -642,7 +814,7 @@ kg, soit 15
 
 € de frais de ports, ce qui conduit au final à une commission d’environ
  
-\begin_inset Formula $(90+15)*13\%=16\,\text{€}$
+\begin_inset Formula $(90+15)/(1/13\%-1)=16\,\text{€}$
 \end_inset
 
  pour EquiDist.
