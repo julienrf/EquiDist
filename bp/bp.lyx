@@ -101,10 +101,33 @@ LatexCommand tableofcontents
 
 \shape italic
 Executive Summary
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\shape italic
+Faudra mettre en valeur tout les EquiDist d'une façon ou d'une autre.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Paragraph
 Contexte
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Pas plutôt une section ou subsection? Bizarre de faire tout la nav avec
+ des paragraphes.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -173,34 +196,55 @@ Solution
 \end_layout
 
 \begin_layout Standard
-EquiDist est un site Web mettant en relation des producteurs et des consommateur
-s.
- Il permet d’une part aux producteurs de présenter leur travail et leurs
- produits, et, d’autre part, aux consommateurs de commander en ligne en
- se regroupant géographiquement.
+EquiDist est un service en-ligne qui cherche à s'adresser aux problèmes
+ évoqués précédemment, et permettant la mise en relation directe de producteurs
+ et de consommateurs.
+ D’une part, les producteurs peuvent présenter leur travail et leurs produits
+ d'une façon plus humaine et transparente, et d’autre part, les consommateurs
+ peuvent se renseigner comfortablement et de commander en ligne avec des
+ possibilités de regroupements géographiques de plus fluide et naturelle.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Faut bien expliquer que c'est pas Ebay, et que c'est plus facile que de
+ se regrouper manuellement.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-EquiDist adresse tous les problèmes évoqués précédemment.
- En effet, en supprimant le stockage intermédiaire EquiDist assume des coûts
- de fonctionement particulièrement faibles permettant de proposer des prix
- attractifs.
+En supprimant le stockage intermédiaire, EquiDist assume des coûts de fonctionem
+ent particulièrement faibles cce qui permet de proposer des prix attractifs.
  Nos estimations montrent des prix, à qualité de produit équivalente, du
  même ordre de grandeur que ceux pratiqués dans la grande distribution.
 \end_layout
 
 \begin_layout Standard
-Ensuite, EquiDist référence les producteurs sans faire pression sur eux
- (ils fixent eux-mêmes leurs prix) et les rapproche des consommateurs, donnant
- à ces derniers plus de visibilité sur les Hommes derrière les produits
- qu’ils consomment.
+Faisant référence des producteurs sans faire pression sur eux (ils fixent
+ eux-mêmes leurs prix), EquiDist les rapproche du consommateur, et donne
+ à ces derniers plus de visibilité sur ceux derrière les produits qu’ils
+ consomment.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Compliqué, le contexte de la personne change trop je trouve.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Enfin, EquiDist encourage les commandes en gros conditionnements (bidon
- de 3 litres d’huile d’olive p.
- ex.) et utilise un ensemble de points relais pour la livraison des produits
- ce qui génère significativement moins d’émissions de 
+En encourageant les commandes en gros conditionnements (bidon de 3 litres
+ d’huile d’olive p.
+ ex.) et en profitant d'un ensemble de points relais pour la livraison des
+ produits, EquiDist génère significativement moins d’émissions de 
 \begin_inset Formula $CO_{2}$
 \end_inset
 
@@ -211,9 +255,12 @@ key "KialaEcolo,BuyDotCom08"
 
 \end_inset
 
- et diminue encore les prix.
- En fait, par rapport aux autres solutions de ventes en ligne de produits
- alimentaires, EquiDist est environ deux fois moins cher.
+ et diminue de nouveau les prix.
+\end_layout
+
+\begin_layout Standard
+Par rapport aux autres solutions de ventes en ligne de produits alimentaires,
+ EquiDist est environ deux fois moins cher.
 \end_layout
 
 \begin_layout Paragraph
@@ -241,6 +288,16 @@ EquiDist est porté par deux étudiants en Master d’Informatique convaincus
  étant spécialisé dans l’analyse et la conception d’architectures logicielles,
  et l’autre dans la réalisation d’interfaces homme-machine ergonomiques
  et inuitives.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+On est trop des anges.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
