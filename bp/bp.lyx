@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -115,34 +115,53 @@ Faudra mettre en valeur tout les EquiDist d'une façon ou d'une autre.
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsection*
 Contexte
+\end_layout
+
+\begin_layout Standard
+Les circuits de distribution actuels (grande distribution, supermarchés
+ et même la vente en ligne) utilisent des espaces de stockage intermédiaires
+ et des dépôts mobiles
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-Pas plutôt une section ou subsection? Bizarre de faire tout la nav avec
- des paragraphes.
+Késako
+\begin_inset space ~
+\end_inset
+
+? Des camions
+\begin_inset space ~
+\end_inset
+
+?
 \end_layout
 
 \end_inset
 
+ ayant un coût non négligeable.
+ En effet, dans le prix payé par le consommateur, la part qui revient au
+ producteur est de l’ordre de seulement 20% en moyenne
+\begin_inset CommandInset citation
+LatexCommand cite
+key "LaTerre"
 
-\end_layout
+\end_inset
 
-\begin_layout Standard
-De part leur nature centralisée, les circuits de distribution utilisent
- des espaces de stockage et des dépôts mobiles ayant un coût non négligeable.
+.
 \end_layout
 
 \begin_layout Standard
 Par ailleurs, ce système, onéreux pour les consommateurs, ne rémunère souvent
  pas correctement les producteurs, comme en témoignent des récentes manifestatio
 ns à ce sujet.
- Ces manifestants ne sont d’ailleurs pas les seuls à exprimer un désir de
- changement: les consommateurs français recherchent plus de transparence
- sur les produits qu’ils consomment, ce qui explique le succès des initiatives
- de type AMAP
+ Ces manifestants ne sont pas les seuls à exprimer un désir de changement
+\begin_inset space ~
+\end_inset
+
+: les consommateurs français recherchent plus de transparence sur les produits
+ qu’ils consomment, ce qui explique le succès des initiatives de type AMAP
 \begin_inset Foot
 status collapsed
 
@@ -170,14 +189,14 @@ Ce qui me gêne c'est qu'on en parle ici, puis on en parle plus.
 \end_layout
 
 \begin_layout Standard
-Enfin, la grande distribution propose souvent des conditionnements de petite
+Enfin, la grande distribution propose surtout des conditionnements de petite
  taille, sources de nombreux emballages, et jette régulièrement des invendus.
- Tout ceci de facilite pas la gestion durable de l’environnement.
+ Tout ceci ne facilite pas une gestion durable de l’environnement.
 \end_layout
 
 \begin_layout Standard
-Tous ces problèmes soulignent le besoin de nouveaux circuits de distribution,
- et des alternatifs «
+Tous ces problèmes soulignent le besoin de nouveaux circuits de distribution.
+ Des circuits alternatifs «
 \begin_inset space ~
 \end_inset
 
@@ -185,30 +204,58 @@ courts
 \begin_inset space ~
 \end_inset
 
-» émergent, permettant d’accéder aux productions locales plus facilement,
- et encourageant une consommation plus écologique et équitable.
- Cependant il n’existe aujourd’hui aucun moyen de combler nos besoins en
- produits produits non disponibles localement.
+» émergent, facilitant l’accès aux productions locales, et encourageant
+ une consommation plus écologique et équitable
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Perso je trouve que «
+\begin_inset space ~
+\end_inset
+
+équitable
+\begin_inset space ~
+\end_inset
+
+» c’est juste un buzz-word hyper galvaudé…
 \end_layout
 
-\begin_layout Paragraph
+\end_inset
+
+.
+ Cependant, il n’existe aujourd’hui pas de moyen similaire permettant de
+ s’approvisionner en produits non locaux.
+\end_layout
+
+\begin_layout Subsection*
 Solution
 \end_layout
 
 \begin_layout Standard
-EquiDist est un service en-ligne qui cherche à s'adresser aux problèmes
- évoqués précédemment, et permettant la mise en relation directe de producteurs
- et de consommateurs.
- D’une part, les producteurs peuvent présenter leur travail et leurs produits
- d'une façon plus humaine et transparente, et d’autre part, les consommateurs
- peuvent se renseigner comfortablement et de commander en ligne avec des
- possibilités de regroupements géographiques de plus fluide et naturelle.
+EquiDist est un service en ligne qui adresse les problèmes évoqués précédemment.
+ Il permet de mettre en relation directe producteurs et consommateurs.
+ D’une part, les producteurs présentent leur travail et leurs produits d'une
+ façon plus humaine
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Je trouve ça niais
+\end_layout
+
+\end_inset
+
+ et transparente, et d’autre part, les consommateurs peuvent commander en
+ ligne avec des possibilités de regroupement par proximité géographique.
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
 Faut bien expliquer que c'est pas Ebay, et que c'est plus facile que de
  se regrouper manuellement.
+ Julien: Ça sera dans la partie 2.
+ Ici c’est juste un summary.
 \end_layout
 
 \end_inset
@@ -217,22 +264,22 @@ Faut bien expliquer que c'est pas Ebay, et que c'est plus facile que de
 \end_layout
 
 \begin_layout Standard
-En supprimant le stockage intermédiaire, EquiDist assume des coûts de fonctionem
-ent particulièrement faibles cce qui permet de proposer des prix attractifs.
+En supprimant le stockage intermédiaire, EquiDist assume des coûts de fonctionne
+ment particulièrement faibles ce qui permet de proposer des prix attractifs.
  Nos estimations montrent des prix, à qualité de produit équivalente, du
  même ordre de grandeur que ceux pratiqués dans la grande distribution.
 \end_layout
 
 \begin_layout Standard
-Faisant référence des producteurs sans faire pression sur eux (ils fixent
- eux-mêmes leurs prix), EquiDist les rapproche du consommateur, et donne
- à ces derniers plus de visibilité sur ceux derrière les produits qu’ils
- consomment.
+Ensuite, EquiDist référence les producteurs sans faire pression sur eux
+ (ils fixent eux-mêmes leurs prix) et les rapproche des consommateurs, donnant
+ à ces derniers plus de visibilité sur les Hommes derrière les produits
+ qu’ils consomment.
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-Compliqué, le contexte de la personne change trop je trouve.
+J’ai remis mon ancien texte que je trouve beaucoup plus clair et intelligible
 \end_layout
 
 \end_inset
@@ -241,8 +288,8 @@ Compliqué, le contexte de la personne change trop je trouve.
 \end_layout
 
 \begin_layout Standard
-En encourageant les commandes en gros conditionnements (bidon de 3 litres
- d’huile d’olive p.
+Enfin, en encourageant les commandes en gros conditionnements (bidon de
+ 3 litres d’huile d’olive p.
  ex.) et en profitant d'un ensemble de points relais pour la livraison des
  produits, EquiDist génère significativement moins d’émissions de 
 \begin_inset Formula $CO_{2}$
@@ -255,15 +302,15 @@ key "KialaEcolo,BuyDotCom08"
 
 \end_inset
 
- et diminue de nouveau les prix.
+ et diminue encore ses prix.
 \end_layout
 
 \begin_layout Standard
-Par rapport aux autres solutions de ventes en ligne de produits alimentaires,
+Par rapport aux autres solutions de vente en ligne de produits alimentaires,
  EquiDist est environ deux fois moins cher.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsection*
 Marché
 \end_layout
 
@@ -273,7 +320,7 @@ Ce système est adapté à la distribution de tout type de produits non périssa
  les urbains sensibles aux valeurs écologistes et sociales.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsection*
 Forces vives
 \end_layout
 
@@ -369,7 +416,7 @@ C’est mal dit, non
 réduire l’impact environnemental du processus de distribution.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsection*
 Trésorerie
 \end_layout
 
