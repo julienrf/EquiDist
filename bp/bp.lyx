@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -108,29 +108,18 @@ Contexte
 \end_layout
 
 \begin_layout Standard
-Les circuits de distribution utilisent des espaces de stockage intermédiaire
- ayant un coût non négligeable.
- Des circuits «
-\begin_inset space ~
-\end_inset
-
-courts
-\begin_inset space ~
-\end_inset
-
-» émergent, permettant d’accéder aux productions locales, mais il n’existe
- aujourd’hui aucun moyen d’accéder aux productions plus éloignées sans passer
- par de coûteux intermédiaires.
+De part leur nature centralisée, les circuits de distribution utilisent
+ des espaces de stockage et des dépôts mobiles ayant un coût non négligeable.
 \end_layout
 
 \begin_layout Standard
-Par ailleurs, ce système, onéreux pour les consommateurs, ne rémunère pas
- correctement les producteurs, comme en témoignent les récentes manifestations
- à ce sujet.
- Ils ne sont d’ailleurs pas les seuls à exprimer un désir de changement,
- les consommateurs recherchent plus de transparence sur les produits qu’ils
- consomment, comme en témoigne par exemple le succès des initiatives de
- type AMAP
+Par ailleurs, ce système, onéreux pour les consommateurs, ne rémunère souvent
+ pas correctement les producteurs, comme en témoignent des récentes manifestatio
+ns à ce sujet.
+ Ces manifestants ne sont d’ailleurs pas les seuls à exprimer un désir de
+ changement: les consommateurs français recherchent plus de transparence
+ sur les produits qu’ils consomment, ce qui explique le succès des initiatives
+ de type AMAP
 \begin_inset Foot
 status collapsed
 
@@ -145,16 +134,38 @@ AMAP
 \end_inset
 
 .
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Ce qui me gêne c'est qu'on en parle ici, puis on en parle plus.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Enfin, la grande distribution propose surtout des conditionnements de petite
- taille, source de nombreux emballages, et jette régulièrement des invendus,
- ne contribuant pas, ce faisant, à une gestion durable de l’environnement.
+Enfin, la grande distribution propose souvent des conditionnements de petite
+ taille, sources de nombreux emballages, et jette régulièrement des invendus.
+ Tout ceci de facilite pas la gestion durable de l’environnement.
 \end_layout
 
 \begin_layout Standard
-Tous ces problèmes soulignent le besoin de nouveaux circuits de distribution.
+Tous ces problèmes soulignent le besoin de nouveaux circuits de distribution,
+ et des alternatifs «
+\begin_inset space ~
+\end_inset
+
+courts
+\begin_inset space ~
+\end_inset
+
+» émergent, permettant d’accéder aux productions locales plus facilement,
+ et encourageant une consommation plus écologique et équitable.
+ Cependant il n’existe aujourd’hui aucun moyen de combler nos besoins en
+ produits produits non disponibles localement.
 \end_layout
 
 \begin_layout Paragraph
