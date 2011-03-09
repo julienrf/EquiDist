@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -295,29 +295,22 @@ ment particulièrement faibles ce qui permet de proposer des prix attractifs.
 \begin_layout Standard
 Ensuite, EquiDist référence les producteurs sans faire pression sur eux
  (ils fixent eux-mêmes leurs prix) et les rapproche des consommateurs, donnant
- à ces derniers plus de visibilité sur les Hommes derrière les produits
+ à ces derniers plus de visibilité sur les humains derrière les produits
  qu’ils consomment.
+\end_layout
+
+\begin_layout Standard
+Enfin
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-Julien: J’ai remis mon ancien texte que je trouve beaucoup plus clair et
- intelligible.
-\end_layout
-
-\begin_layout Plain Layout
-Chris: Je voulais éviter de commencer toutes les phrases par un E, et éviter
- Homme, puisqu'on est devant un jury féministe (oui je sais dans le sens
- humains, mais Homme néanmoins)
+Ju: Du coup j’ai remis ce mot de liaison… Oui, j’insiste…
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-En encourageant les commandes en gros conditionnements (bidon de 3 litres
+, en encourageant les commandes en gros conditionnements (bidon de 3 litres
  d’huile d’olive p.
  ex.) et en profitant d'un ensemble de points relais pour la livraison des
  produits, EquiDist génère significativement moins d’émissions de 
@@ -332,12 +325,8 @@ key "KialaEcolo,BuyDotCom08"
 \end_inset
 
  et diminue encore ses prix.
-\end_layout
-
-\begin_layout Standard
-Grâce à ces facteurs, EquiDist peut proposer des prix environ deux fois
- moins cher que ceux des autres solutions de vente en ligne de produits
- alimentaires.
+ En effet, par rapport aux autres solutions de vente en ligne de produits
+ alimentaires, EquiDist est environ deux fois moins cher.
 \end_layout
 
 \begin_layout Subsection*
@@ -349,17 +338,6 @@ Ce système est adapté à la distribution de tout type de produits non périssa
  (céréales, oléagineux, biscuits, chocolats, vins, etc.) et vise en particulier
  les urbains sensibles aux valeurs écologistes et sociales, et utilisateurs
  conscients des avantages de l'Internet.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Chris: Trop court non? J'ai tenté de dire que c'est aussi des internautes
- modernes.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection*
@@ -382,7 +360,22 @@ status open
 
 \begin_layout Plain Layout
 Chris: On est trop des anges.
- On peut raccourcir ici je crois
+ On peut raccourcir ici je crois.
+\end_layout
+
+\begin_layout Plain Layout
+Ju: Ici
+\begin_inset space ~
+\end_inset
+
+? Avant ou après
+\begin_inset space ~
+\end_inset
+
+? En effet il doit être possible de mixer certains éléments du paragraphe
+ précédent et de la liste qui suit… Cependant, dans le fascicule il est
+ indiqué qu’il faut qu’on fasse apparaître dans cette section les personnes
+ constituant notre équipe et nos objectifs à travers ce projet.
 \end_layout
 
 \end_inset
@@ -400,21 +393,19 @@ Notre ambition, à travers ce projet, est de
 
 \begin_layout Itemize
 redonner aux producteurs toute la reconnaissance qu’ils méritent
+\begin_inset space ~
+\end_inset
+
+;
 \end_layout
 
 \begin_layout Itemize
 renforcer la prise de conscience, par les consommateurs, de l’acte de consommati
 on
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Chris: Euh, enfin on veut qu'ils consomment quand même
-\end_layout
-
+\begin_inset space ~
 \end_inset
 
-
+;
 \end_layout
 
 \begin_layout Itemize
@@ -428,15 +419,22 @@ petits
 
 » producteurs qui représentent des acteurs essentiels du paysage économique,
  lui donnant son dynamisme et sa diversité
+\begin_inset space ~
+\end_inset
+
+;
 \end_layout
 
 \begin_layout Itemize
-encourager les coopérations sociales avec des regroupements faciles par
- quartier
+renforcer les liens sociaux grâce aux regroupements par proximité géographique
+\begin_inset space ~
+\end_inset
+
+;
 \end_layout
 
 \begin_layout Itemize
-réduire l’impact environnemental du processus de distribution
+réduire l’impact environnemental du processus de distribution.
 \end_layout
 
 \begin_layout Subsection*
@@ -460,6 +458,18 @@ status open
 Chris: Je pense vraiment pas qu'on peut demander 100 k€ juste en citant
  de la R&D et de la com.
  Et puis ça serait cool de pouvoir dire 1 an.
+\end_layout
+
+\begin_layout Plain Layout
+Ju: Ce n’est pas seulement la R&D et com, c’est surtout le temps de développer
+ une clientèle suffisamment importante (la région Rennes Métropole seule
+ ne permettra pas d’assurer les 300 commandes mensuelles nécessaires à l’équilib
+re de la trésorerie), ça mettra probablement un peu de temps avant qu’on
+ obtienne un tel débit de commandes, et pendant tout ce temps le déficit
+ se creuse, et après il faut un temps pour que les bénéfices rattrapent
+ nos dettes.
+ J’aimerais bien dire 1 an, mais j’ai bien peur que ce soit malhonnête.
+ Je ne vois pas concrètement comment atteindre cette échéance.
 \end_layout
 
 \end_inset
@@ -551,12 +561,31 @@ Contrairement à tous les autres acteurs de ce secteur, EquiDist ne fait
  gagnent à se connaître (les producteurs avec les consommateurs et les consommat
 eurs entre eux).
  Nous ne disposons d'aucun stockage intermédiaire, la vente et la livraison
- se fait directement.
+ se font directement.
 \end_layout
 
 \begin_layout Standard
 Les clients peuvent récevoir leurs commandes chez eux ou opter pour une
- livraison dans un point relais Kiala pour les récupérer plus tard.
+ livraison dans un point relais Kiala
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Kiala est un réseau de commerces consentant à réceptionner les colis des
+ particuliers.
+ 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.kiala.fr"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ pour les récupérer plus tard.
 \end_layout
 
 \begin_layout Standard
@@ -597,8 +626,8 @@ Contexte
 Depuis quelques années, les sociétés de vente en ligne sont en grande augmentati
 on.
  Cependant, les produits alimentaires ne représentent que 14% de marché.
- Clairement il y a de la place pour faire émerger de nouveaux modes de distribut
-ion pour la vente en ligne de produits alimentaires
+ Clairement il y a de la place pour l’émergence de nouveaux modes de distributio
+n pour la vente en ligne de produits alimentaires
 \begin_inset CommandInset citation
 LatexCommand cite
 key "CredocVPAL09"
@@ -609,8 +638,8 @@ key "CredocVPAL09"
 \end_layout
 
 \begin_layout Standard
-Le coût de l’énergie augmente plus vite que les revenus, et le problème
- du changement climatique pèse sur les activités économiques.
+Le coût de l’énergie augmente plus vite que les revenus et le problème du
+ changement climatique pèse sur les activités économiques.
  Le commerce en ligne et la vente en directe permettent de faire des économies
  d’énergie, donc des émissions de 
 \begin_inset Formula $CO_{2}$
