@@ -120,32 +120,9 @@ Contexte
 \end_layout
 
 \begin_layout Standard
-Les circuits de distribution actuels (grande distribution, supermarchés
- et même la vente en ligne) utilisent des espaces de stockage intermédiaires
- et des dépôts mobiles
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Julien: Késako
-\begin_inset space ~
-\end_inset
-
-? Des camions
-\begin_inset space ~
-\end_inset
-
-?
-\end_layout
-
-\begin_layout Plain Layout
-Chris: Ouais, parce qu'en faite les super marchés ont très peu de stock,
- et dépendent de camions mobiles super bien prévus.
-\end_layout
-
-\end_inset
-
- ayant un coût non négligeable.
+La grande distribution, les supermarchés et même les systèmes de vente en
+ ligne utilisent des espaces de stockage intermédiaires ayant un coût non
+ négligeable.
  En effet, dans le prix payé par le consommateur, la part qui revient au
  producteur est de l’ordre de seulement 20% en moyenne
 \begin_inset CommandInset citation
@@ -160,7 +137,7 @@ key "LaTerre"
 \begin_layout Standard
 Par ailleurs, ce système, onéreux pour les consommateurs, ne rémunère souvent
  pas correctement les producteurs, comme en témoignent des récentes manifestatio
-ns à ce sujet.
+ns à ce sujet[missing ref].
  Ces manifestants ne sont pas les seuls à exprimer un désir de changement
 \begin_inset space ~
 \end_inset
@@ -168,39 +145,35 @@ ns à ce sujet.
 : les consommateurs français recherchent plus de transparence sur les produits
  qu’ils consomment, ce qui explique le succès des initiatives de type AMAP
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
-AMAP
-\begin_inset space ~
-\end_inset
-
-: Association pour le Maintien d’une Agriculture Paysanne
+Les Association pour le Maintien d’une Agriculture Paysanne permettent à
+ leurs adhérents de passer des contrats avec des producteurs locaux, les
+ engageant à acheter leurs produits tout au long de la saison.
 \end_layout
 
 \end_inset
 
 .
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Chris: Ce qui me gêne c'est qu'on en parle ici, puis on en parle plus.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
 Enfin, la grande distribution propose surtout des conditionnements de petite
  taille, sources de nombreux emballages, et jette régulièrement des invendus.
- Tout ceci ne facilite pas une gestion durable de l’environnement.
+ Ces pratiques ne s’inscrivent pas une gestion durable de l’environnement.
 \end_layout
 
 \begin_layout Standard
-Tous ces problèmes soulignent le besoin de nouveaux circuits de distribution.
+Tous ces problèmes, d’ordre économiques, sociaux et écologiques —
+\begin_inset space ~
+\end_inset
+
+les piliers du développement durable
+\begin_inset space ~
+\end_inset
+
+—, soulignent le besoin de nouveaux circuits de distribution.
  Des circuits alternatifs «
 \begin_inset space ~
 \end_inset
@@ -209,32 +182,11 @@ courts
 \begin_inset space ~
 \end_inset
 
-» émergent, facilitant l’accès aux productions locales, et encourageant
- une consommation plus écologique et équitable
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Julien: Perso je trouve que «
-\begin_inset space ~
-\end_inset
-
-équitable
-\begin_inset space ~
-\end_inset
-
-» c’est juste un buzz-word hyper galvaudé…
-\end_layout
-
-\begin_layout Plain Layout
-Chris: Mais reconnu, et on cherche à faire du buzz de toute façon.
-\end_layout
-
-\end_inset
-
-.
- Cependant, il n’existe aujourd’hui pas de moyen similaire permettant de
- s’approvisionner en produits non locaux.
+» émergent (AMAP, coopératives agricoles, etc.), facilitant l’accès aux productio
+ns locales, et encourageant une consommation compatible avec les valeurs
+ du développement durable.
+ Cependant, il n’existe aujourd’hui pas de moyen similaire pour s’approvisionner
+ en produits non locaux.
 \end_layout
 
 \begin_layout Subsection*
@@ -242,26 +194,11 @@ Solution
 \end_layout
 
 \begin_layout Standard
-EquiDist est un service en ligne qui adresse les problèmes évoqués précédemment.
- Il permet de mettre en relation directe producteurs et consommateurs.
- D’une part, les producteurs présentent leur travail et leurs produits d'une
- façon plus humaine
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Julien: Je trouve ça niais
-\end_layout
-
-\begin_layout Plain Layout
-Chris: Y'a plein de sites qui offrent la capacité de se présenter, mais
- nous on veut vraiment créer du contact.
-\end_layout
-
-\end_inset
-
- et transparente, et d’autre part, les consommateurs peuvent commander en
- ligne avec des possibilités de regroupement par proximité géographique.
+EquiDist est un service en ligne qui permet de mettre en relation directe
+ producteurs et consommateurs.
+ Les producteurs y présentent leur travail et leurs produits de façon attractive
+ (photos, vidéos, etc.), et les consommateurs commandent en ligne avec des
+ possibilités de regroupement par proximité géographique.
 \begin_inset Note Note
 status open
 
@@ -295,23 +232,13 @@ ment particulièrement faibles ce qui permet de proposer des prix attractifs.
 \begin_layout Standard
 Ensuite, EquiDist référence les producteurs sans faire pression sur eux
  (ils fixent eux-mêmes leurs prix) et les rapproche des consommateurs, donnant
- à ces derniers plus de visibilité sur les humains derrière les produits
+ à ces derniers plus de visibilité sur le travail humain derrière les produits
  qu’ils consomment.
 \end_layout
 
 \begin_layout Standard
-Enfin
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Ju: Du coup j’ai remis ce mot de liaison… Oui, j’insiste…
-\end_layout
-
-\end_inset
-
-, en encourageant les commandes en gros conditionnements (bidon de 3 litres
- d’huile d’olive p.
+Enfin, en encourageant les commandes en gros conditionnements (bidon de
+ 3 litres d’huile d’olive p.
  ex.) et en profitant d'un ensemble de points relais pour la livraison des
  produits, EquiDist génère significativement moins d’émissions de 
 \begin_inset Formula $CO_{2}$
@@ -329,15 +256,45 @@ key "KialaEcolo,BuyDotCom08"
  alimentaires, EquiDist est environ deux fois moins cher.
 \end_layout
 
+\begin_layout Standard
+Ainsi, tous les problèmes évoqués précédemment sont adressés par EquiDist.
+\end_layout
+
 \begin_layout Subsection*
 Marché
 \end_layout
 
 \begin_layout Standard
-Ce système est adapté à la distribution de tout type de produits non périssables
- (céréales, oléagineux, biscuits, chocolats, vins, etc.) et vise en particulier
- les urbains sensibles aux valeurs écologistes et sociales, et utilisateurs
- conscients des avantages de l'Internet.
+Ce système est adapté à la distribution de tout produit non périssable (céréales
+, oléagineux, biscuits, chocolats, vins, etc.) et vise en particulier les
+ urbains sensibles aux valeurs écologistes et sociales, et utilisateurs
+ conscients des avantages de l'Internet
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Julien: On devrait préciser «
+\begin_inset space ~
+\end_inset
+
+Avantages sur quoi
+\begin_inset space ~
+\end_inset
+
+? Par rapport à quoi
+\begin_inset space ~
+\end_inset
+
+?
+\begin_inset space ~
+\end_inset
+
+»
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection*
@@ -345,42 +302,12 @@ Forces vives
 \end_layout
 
 \begin_layout Standard
-EquiDist est porté par deux étudiants en Master d’Informatique convaincus
+EquiDist est porté par deux étudiants de Master d’Informatique convaincus
  que les nouvelles technologies doivent avant tout servir à améliorer le
  système dans lequel ils vivent.
- Ils pensent que les technologies de l’information sont un formidable moyen
- de relier les personnes entre elles et de stimuler leur curiosité tout
- en s’affranchissant des distances physiques qui les séparent.
- Par ailleurs, leurs compétences en informatique sont complémentaires, l’un
- étant spécialisé dans l’analyse et la conception d’architectures logicielles,
- et l’autre dans la réalisation d’interfaces homme-machine ergonomiques
- et inuitives.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Chris: On est trop des anges.
- On peut raccourcir ici je crois.
-\end_layout
-
-\begin_layout Plain Layout
-Ju: Ici
-\begin_inset space ~
-\end_inset
-
-? Avant ou après
-\begin_inset space ~
-\end_inset
-
-? En effet il doit être possible de mixer certains éléments du paragraphe
- précédent et de la liste qui suit… Cependant, dans le fascicule il est
- indiqué qu’il faut qu’on fasse apparaître dans cette section les personnes
- constituant notre équipe et nos objectifs à travers ce projet.
-\end_layout
-
-\end_inset
-
-
+ Leurs compétences en informatique sont complémentaires, l’un étant spécialisé
+ dans la conception d’architectures logicielles, et l’autre dans la réalisation
+ d’interfaces homme-machine ergonomiques et inuitives.
 \end_layout
 
 \begin_layout Standard
@@ -392,16 +319,9 @@ Notre ambition, à travers ce projet, est de
 \end_layout
 
 \begin_layout Itemize
-redonner aux producteurs toute la reconnaissance qu’ils méritent
-\begin_inset space ~
-\end_inset
-
-;
-\end_layout
-
-\begin_layout Itemize
-renforcer la prise de conscience, par les consommateurs, de l’acte de consommati
-on
+redonner aux producteurs toute la reconnaissance qu’ils méritent pour leur
+ travail en renforçant la prise de conscience, par les consommateurs, de
+ l’acte de consommation
 \begin_inset space ~
 \end_inset
 
@@ -418,7 +338,7 @@ petits
 \end_inset
 
 » producteurs qui représentent des acteurs essentiels du paysage économique,
- lui donnant son dynamisme et sa diversité
+ lui donnant dynamisme et diversité
 \begin_inset space ~
 \end_inset
 
@@ -426,7 +346,8 @@ petits
 \end_layout
 
 \begin_layout Itemize
-renforcer les liens sociaux grâce aux regroupements par proximité géographique
+renforcer les liens sociaux et la vie de quartier grâce aux regroupements
+ par proximité géographique
 \begin_inset space ~
 \end_inset
 
@@ -434,7 +355,8 @@ renforcer les liens sociaux grâce aux regroupements par proximité géographiqu
 \end_layout
 
 \begin_layout Itemize
-réduire l’impact environnemental du processus de distribution.
+réduire l’impact environnemental du processus de distribution grâce au système
+ hautement dématérialisé[missing ref].
 \end_layout
 
 \begin_layout Subsection*
@@ -479,7 +401,7 @@ re de la trésorerie), ça mettra probablement un peu de temps avant qu’on
 
 \begin_layout Standard
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Concise summary of the business opportunity covering all important components
@@ -532,43 +454,38 @@ Summary of financial requirements and projections
 \end_layout
 
 \begin_layout Part
-EquiDist
+Fonctionnement
 \end_layout
 
 \begin_layout Standard
-L’activité de l’entreprise consiste à mettre en relation des consommateurs
- avec des producteurs, leur permettre de passer facilement des commandes,
- et également à mettre en relation des consommateurs entre eux selon leur
- proximité géographique.
- Notre secteur d’activité est la vente en ligne de produits alimentaires.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Chris: Faudrait trouver autre chose que "mettre en relation", car on ne
- met pas en relation en faite, on leur permet de se mettre en relation.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Contrairement à tous les autres acteurs de ce secteur, EquiDist ne fait
- pas de négoce.
- Le service que nous fournissons est la mise en relation de personnes qui
- gagnent à se connaître (les producteurs avec les consommateurs et les consommat
-eurs entre eux).
+Contrairement à tous les autres acteurs du secteur de la vente en ligne
+ de produits alimentaires, EquiDist ne fait pas de négoce.
+ Le service que nous fournissons est la 
+\series bold
+mise en relation de personnes
+\series default
+ qui gagnent à se connaître (les producteurs avec les consommateurs et les
+ consommateurs entre eux).
  Nous ne disposons d'aucun stockage intermédiaire, la vente et la livraison
- se font directement.
+ se font directement du producteur au(x) consommateur(s).
 \end_layout
 
 \begin_layout Standard
-Les clients peuvent récevoir leurs commandes chez eux ou opter pour une
- livraison dans un point relais Kiala
+Alors que la grande distribution concentre un ensemble de produits en un
+ même lieu (les grandes surfaces) où les différents clients se rendent pour
+ effectuer leurs achats, et que la plupart des systèmes de vente en ligne
+ livrent directement chez les clients, EquiDist a choisi un fonctionnement
+ hybride.
+ En donnant aux clients la possibilité de connaître les clients proches
+ de chez eux et commandant au même producteur qu’eux, ils peuvent 
+\series bold
+regrouper leurs commandes
+\series default
+.
+ La livraison se fera ensuite, au choix, chez l’un des clients ou dans un
+ point relais Kiala
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Kiala est un réseau de commerces consentant à réceptionner les colis des
@@ -585,195 +502,23 @@ target "http://www.kiala.fr"
 
 \end_inset
 
- pour les récupérer plus tard.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Itemize
-Who are we? Nouvelle entreprise, secteur de la vente en ligne (de produits
- alimentaires dans un premier temps au moins), structure juridique, équipe.
-\end_layout
-
-\begin_layout Itemize
-What do we do? Vision, principaux objectifs.
-\end_layout
-
-\begin_layout Itemize
-What do we bring? Caractère unique
-\end_layout
-
-\begin_layout Itemize
-To which market?
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Part
-Plan commercial
-\end_layout
-
-\begin_layout Section
-Contexte
-\end_layout
-
-\begin_layout Standard
-Depuis quelques années, les sociétés de vente en ligne sont en grande augmentati
-on.
- Cependant, les produits alimentaires ne représentent que 14% de marché.
- Clairement il y a de la place pour l’émergence de nouveaux modes de distributio
-n pour la vente en ligne de produits alimentaires
-\begin_inset CommandInset citation
-LatexCommand cite
-key "CredocVPAL09"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-Le coût de l’énergie augmente plus vite que les revenus et le problème du
- changement climatique pèse sur les activités économiques.
- Le commerce en ligne et la vente en directe permettent de faire des économies
- d’énergie, donc des émissions de 
-\begin_inset Formula $CO_{2}$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-Les producteurs manifestent de plus en plus leur sentiment d’injustice et
- de manque de reconnaissance
-\begin_inset space ~
-\end_inset
-
-: ils ne fixent pas les prix des produits qu’ils vendent et en souffrent.
-\end_layout
-
-\begin_layout Standard
-Le Web est un moyen formidable de relier les gens entre eux, à condition
- qu’ils sachent qu’ils aient intérêt à le faire.
-\end_layout
-
-\begin_layout Section
-Concurrence
-\end_layout
-
-\begin_layout Standard
-Les points forts d’EquiDist par rapport à la concurrence sont
-\begin_inset space ~
-\end_inset
-
-:
-\end_layout
-
-\begin_layout Description
-Économique Les commandes groupées reviennent moins cher que chez tous les
- autres concurrents (pour un produit de même qualité)
-\begin_inset space ~
-\end_inset
-
-;
-\end_layout
-
-\begin_layout Description
-Écologique Le bilan carbone est nettement meilleur qu’avec tous les autres
- systèmes
-\begin_inset space ~
-\end_inset
-
-;
-\end_layout
-
-\begin_layout Description
-Social Pas de pression sur les producteurs, vie de quartier renforcée.
-\end_layout
-
-\begin_layout Standard
-Le principal inconvénient de notre système est que pour être vraiment plus
- compétitif que la grande distribution (au niveau des prix), il faut que
- les clients se regroupent entre eux (les frais de port peuvent être divisés
- par trois), ce qui n’est pas habituel, nécessite un effort supplémentaire
- et rallonge les délais d’accès aux produits (alors que dans un supermarché
- le produit est disponible immédiatement).
-\end_layout
-
-\begin_layout Standard
-Détailler le calcul des prix et illustrer avec des exemples qu’il est intéressan
-t.
-\end_layout
-
-\begin_layout Section
-Marché ciblé et stratégie
-\end_layout
-
-\begin_layout Standard
-EquiDist s’adresse plus particulièrement à la frange de la population sensible
- à la notion de développement durable.
-\end_layout
-
-\begin_layout Standard
-La part des coûts variables de notre activité étant faible, notre stratégie
- consiste à positionner des prix bas (c’est-à-dire prélever une faible commissio
-n sur les commandes effectuées par les clients) et chercher à s’étendre
- le plus rapidement possible sur le territoire (de façon à toucher le plus
- rapidement possible un maximum de clients).
- Cependant, afin d’éviter des problèmes de gestion dus à une montée en charge
- trop rapide, nous prévoyons de démarrer notre activité dans un secteur
- géographique réduit (Rennes Métropole) et nous ne nous étendrons que lorsque
- notre système sera bien rôdé.
+, selon leurs disponibilités.
+ Le regroupement facilite le travail du transporteur et diminue par conséquent
+ les frais de port.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Note Note
 status open
 
-\begin_layout Itemize
-Étude de marché.
- Macro puis micro.
- Éléments sociaux, économiques, environnementaux, technologiques.
-\end_layout
-
-\begin_layout Itemize
-Facteurs de succès
-\end_layout
-
-\begin_layout Itemize
-Obstacles
-\end_layout
-
-\begin_layout Itemize
-Marché ciblé (âge, revenu).
- Comment allons-nous l’atteindre
-\begin_inset space ~
-\end_inset
-
-?
-\end_layout
-
-\begin_layout Itemize
-Concurrents (directs et indirects).
- Positionnement de nos prix.
-\end_layout
-
-\begin_layout Itemize
-Promotional Strategy.
+\begin_layout Plain Layout
+TODO Mettre des mockups ici ou donner des arguments super convaincants pour
+ montrer que notre système est trop addictif.
 \end_layout
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Part
-Fonctionnement
 \end_layout
 
 \begin_layout Standard
@@ -891,6 +636,240 @@ Développement du site en lui-même.
 Besoins humains.
  Temps de travail, types de postes.
  Prospectives.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Plan commercial
+\end_layout
+
+\begin_layout Section
+Contexte
+\end_layout
+
+\begin_layout Standard
+Depuis quelques années, les sociétés de vente en ligne sont en grande augmentati
+on.
+ Cependant, les produits alimentaires ne représentent que 14% de marché.
+ Pourtant, des études indiquent qu’il y a de la place pour l’émergence de
+ nouveaux modes de distribution pour la vente en ligne de produits alimentaires
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CredocVPAL09"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Le coût de l’énergie augmente plus vite que les revenus et le problème du
+ changement climatique pèse sur les activités économiques.
+ Le commerce en ligne et la vente en directe permettent de faire des économies
+ d’énergie, donc des émissions de 
+\begin_inset Formula $CO_{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Les producteurs manifestent de plus en plus leur sentiment d’injustice et
+ de manque de reconnaissance
+\begin_inset space ~
+\end_inset
+
+: ils ne fixent pas les prix des produits qu’ils vendent et en souffrent.
+\end_layout
+
+\begin_layout Standard
+Le Web est un moyen formidable de relier les gens entre eux, à condition
+ qu’ils sachent qu’ils aient intérêt à le faire.
+\end_layout
+
+\begin_layout Section
+Concurrence
+\end_layout
+
+\begin_layout Standard
+Les points forts d’EquiDist par rapport à la concurrence sont
+\begin_inset space ~
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Description
+Économique Les commandes groupées reviennent moins cher que chez tous les
+ autres concurrents (pour un produit de même qualité)
+\begin_inset space ~
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Description
+Écologique Le bilan carbone est nettement meilleur qu’avec tous les autres
+ systèmes
+\begin_inset space ~
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Description
+Social Pas de pression sur les producteurs, vie de quartier renforcée.
+\end_layout
+
+\begin_layout Standard
+Le principal inconvénient de notre système est que pour être vraiment plus
+ compétitif que la grande distribution (au niveau des prix), il faut que
+ les clients se regroupent entre eux (les frais de port peuvent être divisés
+ par trois), ce qui n’est pas habituel, nécessite un effort supplémentaire
+ et rallonge les délais d’accès aux produits (alors que dans un supermarché
+ le produit est disponible immédiatement).
+\end_layout
+
+\begin_layout Standard
+Prenons un exemple pour illustrer la position d’EquiDist par rapport à la
+ concurrence.
+ M.
+ Stéphane Ferlin produit des noix de Grenoble AOC qu’il vend à 2.70
+\begin_inset space ~
+\end_inset
+
+€/kg conditionnées en filets de 5
+\begin_inset space ~
+\end_inset
+
+kg.
+ Sur la majorité des sites de vente en ligne, les noix ne sont disponibles
+ qu’en petits conditionnements (maximum 1
+\begin_inset space ~
+\end_inset
+
+kg), et leur prix est d’environ 8
+\begin_inset space ~
+\end_inset
+
+€/kg.
+ En grande surface, le prix des noix est généralement supérieur à 4
+\begin_inset space ~
+\end_inset
+
+€/kg.
+ Avec EquiDist, acheter un filet de 5
+\begin_inset space ~
+\end_inset
+
+kg coûte 13.50
+\begin_inset space ~
+\end_inset
+
+€ auxquels s’ajoutent des frais de port (6
+\begin_inset space ~
+\end_inset
+
+€ dans ce cas) et des frais de fonctionnement (ici 2.50
+\begin_inset space ~
+\end_inset
+
+€), soit un total de 22
+\begin_inset space ~
+\end_inset
+
+€, ce qui, ramené au kg (4.25
+\begin_inset space ~
+\end_inset
+
+€/kg), correspond à peu près au tarif pratiqué par la grande distribution.
+\end_layout
+
+\begin_layout Standard
+Mais les calculs ne s’arrêtent pas là.
+ Si deux clients veulent acheter 5
+\begin_inset space ~
+\end_inset
+
+kg de noix et sont proches géographiquement et décident de regrouper leur
+ commande, alors le total par personne descend à 20
+\begin_inset space ~
+\end_inset
+
+€.
+ S’ils sont trois, le total tombe à 19
+\begin_inset space ~
+\end_inset
+
+€ (soit une diminution de près de 15% par rapport à une commande seule).
+ Au delà de trois personnes, nous pensons que les regroupements seront plus
+ difficiles à cause de la coordination que cela nécessite, mais on observe
+ que déjà à partir d’un regroupement de 3 personnes, le prix chute considérablem
+ent, et se positionne même en-dessous de celui pratiqué par la grande distributi
+on.
+ D’autres calculs semblables ont été effectués avec d’autres produits (huile
+ d’olive, biscuits, chocolats, etc.) et ont produit les mêmes résultats.
+\end_layout
+
+\begin_layout Section
+Marché ciblé et stratégie
+\end_layout
+
+\begin_layout Standard
+EquiDist s’adresse plus particulièrement à la frange de la population sensible
+ à la notion de développement durable.
+\end_layout
+
+\begin_layout Standard
+La part des coûts variables de notre activité étant faible, notre stratégie
+ consiste à positionner des prix bas (c’est-à-dire prélever une faible commissio
+n sur les commandes effectuées par les clients) et chercher à s’étendre
+ le plus rapidement possible sur le territoire (de façon à toucher le plus
+ rapidement possible un maximum de clients).
+ Cependant, afin d’éviter des problèmes de gestion dus à une montée en charge
+ trop rapide, nous prévoyons de démarrer notre activité dans un secteur
+ géographique réduit (Rennes Métropole) et nous ne nous étendrons que lorsque
+ notre système sera bien rôdé.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Itemize
+Étude de marché.
+ Macro puis micro.
+ Éléments sociaux, économiques, environnementaux, technologiques.
+\end_layout
+
+\begin_layout Itemize
+Facteurs de succès
+\end_layout
+
+\begin_layout Itemize
+Obstacles
+\end_layout
+
+\begin_layout Itemize
+Marché ciblé (âge, revenu).
+ Comment allons-nous l’atteindre
+\begin_inset space ~
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Itemize
+Concurrents (directs et indirects).
+ Positionnement de nos prix.
+\end_layout
+
+\begin_layout Itemize
+Promotional Strategy.
 \end_layout
 
 \end_inset
