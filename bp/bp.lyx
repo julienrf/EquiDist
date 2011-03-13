@@ -1192,13 +1192,12 @@ kg, soit 15
 
 \begin_layout Standard
 Les calculs effectués pour chaque producteur nous conduisent à estimer le
- bénéfice moyen d’une commande à 20
+ bénéfice moyen d’une commande à 24.21
 \begin_inset space ~
 \end_inset
 
-€[À vérifier depuis le Docs], ce qui élève le nombre de ventes nécessaires
- pour assurer la viabilité de l’activité aux alentours de 300 commandes
- mensuelles.
+€, ce qui élève le nombre de commandes nécessaires pour assurer la viabilité
+ de l’activité aux alentours de 300 commandes mensuelles.
 \end_layout
 
 \begin_layout Subsection
@@ -1338,8 +1337,59 @@ Détail de la première année
 \end_layout
 
 \begin_layout Standard
-La figure [Ref] montre l’évolution des recettes et dépenses sur la première
- année, mois par mois, pour chaque scénario.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename detail1ereannee.svg
+	width 13cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:1ere-annee"
+
+\end_inset
+
+Dépenses et recettes mensuelles au cours de la première année.
+ La courbe en jaune représente les dépenses, la courbe verte les recettes
+ dans le cas du scénario optimiste et la courbe violette les recettes dans
+ le cas du scénario pessimiste.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:1ere-annee"
+
+\end_inset
+
+ montre l’évolution des recettes et dépenses sur la première année, mois
+ par mois, pour chaque scénario.
  Le graphique peut se découper en 3 grandes phases
 \begin_inset space ~
 \end_inset
@@ -1381,13 +1431,69 @@ Expansion
 \end_inset
 
 : une fois le système informatique validé à la phase précédente, nous réaliseron
-s une opération commerciale afin de toucher des clients dans une autre métropole
+s une opération commerciale afin de toucher des clients d’autres métropoles
  et atteindre l’équilibre financier.
 \end_layout
 
 \begin_layout Standard
-La figure [Ref] détaille la répartition type des dépenses et recettes mensuelles.
- On observe que la majorité des dépenses est constituée par les salaires.
+Un point intéressant est que l’augmentation de notre chiffre d’affaires
+ dans les douze premiers mois d’activité ne nécessite pas de dépense supplémenta
+ire.
+ Les bases du système informatique auront été construites, notre temps de
+ travail pourra être affecté à la résolution d’éventuels problèmes ou événéments
+ inattendus liés aux commandes des clients et à l’amélioration et la consolidati
+on du système.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+[TODO]
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:1ere-annee"
+
+\end_inset
+
+Prévisions des dépenses et recettes du 
+\begin_inset Formula $5^{e}$
+\end_inset
+
+ mois d’activité
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Le tableau 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:1ere-annee"
+
+\end_inset
+
+ détaille la répartition type des dépenses et recettes mensuelles.
+ On observe que la majorité des dépenses (70%) est constituée par les salaires.
 \end_layout
 
 \begin_layout Standard
