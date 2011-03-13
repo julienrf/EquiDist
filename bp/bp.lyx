@@ -124,7 +124,7 @@ La grande distribution, les supermarchés et même les systèmes de vente en
  ligne utilisent des espaces de stockage intermédiaires ayant un coût non
  négligeable.
  En effet, dans le prix payé par le consommateur, la part qui revient au
- producteur est de l’ordre de seulement 20% en moyenne
+ producteur est de l’ordre de seulement 20% en moyenne 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "LaTerre"
@@ -137,7 +137,7 @@ key "LaTerre"
 \begin_layout Standard
 Par ailleurs, ce système, onéreux pour les consommateurs, ne rémunère souvent
  pas correctement les producteurs, comme en témoignent des récentes manifestatio
-ns à ce sujet
+ns à ce sujet 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "AgriculteursDistributeurs11"
@@ -251,7 +251,7 @@ Enfin, en encourageant les commandes en gros conditionnements (bidon de
 \begin_inset Formula $CO_{2}$
 \end_inset
 
- que les circuits classiques
+ que les circuits classiques 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "KialaEcolo,BuyDotCom08"
@@ -363,7 +363,7 @@ renforcer les liens sociaux et la vie de quartier grâce aux regroupements
 
 \begin_layout Itemize
 réduire l’impact environnemental du processus de distribution grâce au système
- hautement dématérialisé
+ hautement dématérialisé 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "TICTransports,KialaEcolo,BuyDotCom08"
@@ -460,6 +460,410 @@ Management team overview
 
 \begin_layout Itemize
 Summary of financial requirements and projections
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Plan commercial
+\end_layout
+
+\begin_layout Subsection
+Contexte général
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Julien: Ici je pense qu’il faudrait préciser ce qui a été mis en section
+ 1.1 mais j’ai l’impression que ce que j’ai mis se limite à répéter ce qui
+ était déjà écrit…
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Depuis quelques années, les sociétés de vente en ligne sont en grande augmentati
+on 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "FevadChiffresCles10"
+
+\end_inset
+
+.
+ Cependant, les produits alimentaires ne représentent que 14% de marché.
+ Pourtant, des études indiquent qu’il y a de la place pour l’émergence de
+ nouveaux modes de distribution pour la vente en ligne de produits alimentaires
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CredocVPAL09"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Par ailleurs, Le coût de l’énergie augmente plus vite que les revenus et
+ le problème du changement climatique pèse sur les activités économiques.
+ Le commerce en ligne et la vente directe permettent de faire des économies
+ d’énergie, ils sont donc une opportunité pour diminuer nos émissions de
+ 
+\begin_inset Formula $CO_{2}$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "BuyDotCom08,KialaEcolo,TICTransports"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Les producteurs manifestent de plus en plus leur sentiment d’injustice et
+ de manque de reconnaissance
+\begin_inset space ~
+\end_inset
+
+: ils ne fixent pas les prix des produits qu’ils vendent et en souffrent
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "AgriculteursDistributeurs11,JacquiauGrandeDistribution"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Le Web est un moyen formidable de relier les gens entre eux, à condition
+ qu’ils sachent qu’ils aient intérêt à le faire.
+\end_layout
+
+\begin_layout Subsection
+Étude micro-économique
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename sondage.png
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:sondage"
+
+\end_inset
+
+Réponses à la question «
+\begin_inset space ~
+\end_inset
+
+Êtes-vous intéressés par la possibilité de réaliser des commandes groupées
+\begin_inset space ~
+\end_inset
+
+?
+\begin_inset space ~
+\end_inset
+
+»
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Nous avons réalisé un sondage que nous avons soumis à l’ensemble des promotions
+ d’étudiants en informatique à l’université de Rennes
+\begin_inset space ~
+\end_inset
+
+1 ainsi qu’à quelques autres relations (telles que des associations étudiantes).
+ Ce sondage a été rempli par 240 personnes et contenait des questions sur
+ leurs habitudes alimentaires et surtout sur leur adhésion à notre système
+ de distribution.
+ La figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:sondage"
+
+\end_inset
+
+ montre la répartition des réponses à une de ces questions.
+ L’ensemble des réponses obtenues suggère que les personnes interrogées
+ sont plutôt intéressées par notre système.
+\end_layout
+
+\begin_layout Subsection
+Concurrence
+\end_layout
+
+\begin_layout Standard
+Les points forts d’EquiDist par rapport à la concurrence sont
+\begin_inset space ~
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Description
+Économique Les commandes groupées reviennent moins cher que chez tous les
+ autres concurrents (pour un produit de même qualité)
+\begin_inset space ~
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Description
+Écologique Le bilan carbone est nettement meilleur qu’avec tous les autres
+ systèmes (grâce à l’absence d’espace de stockage intermédiaire et les gros
+ conditionnements)
+\begin_inset space ~
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Description
+Social Pas de pression sur les producteurs, vie de quartier renforcée.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Julien: Bon, là ça fait trois fois que je dis ça, on peut peut-être le virer…
+\begin_inset space ~
+\end_inset
+
+?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Le principal inconvénient de notre système est que pour être vraiment plus
+ compétitif que la grande distribution (au niveau des prix), il faut que
+ les clients se regroupent entre eux (les frais de port peuvent être divisés
+ par trois), ce qui n’est pas habituel, nécessite un effort supplémentaire
+ et rallonge les délais d’accès aux produits (alors que dans un supermarché
+ le produit est disponible immédiatement).
+\end_layout
+
+\begin_layout Standard
+Prenons un exemple pour illustrer la position d’EquiDist par rapport à la
+ concurrence.
+ M.
+ Stéphane Ferlin produit des noix de Grenoble AOC qu’il vend à 2.70
+\begin_inset space ~
+\end_inset
+
+€/kg conditionnées en filets de 5
+\begin_inset space ~
+\end_inset
+
+kg.
+\end_layout
+
+\begin_layout Itemize
+Sur la majorité des sites de vente en ligne, les noix ne sont disponibles
+ qu’en petits conditionnements (maximum 1
+\begin_inset space ~
+\end_inset
+
+kg), et leur prix est d’environ 
+\series bold
+8
+\begin_inset space ~
+\end_inset
+
+€/kg
+\series default
+
+\begin_inset space ~
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Itemize
+En grande surface, le prix des noix est généralement supérieur à 
+\series bold
+4
+\begin_inset space ~
+\end_inset
+
+€/kg
+\series default
+
+\begin_inset space ~
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Itemize
+Avec EquiDist, acheter un filet de 5
+\begin_inset space ~
+\end_inset
+
+kg coûte 13.50
+\begin_inset space ~
+\end_inset
+
+€ auxquels s’ajoutent des frais de port (6
+\begin_inset space ~
+\end_inset
+
+€ dans ce cas) et des frais de fonctionnement (13% du total, ici 2.50
+\begin_inset space ~
+\end_inset
+
+€), soit un total de 22
+\begin_inset space ~
+\end_inset
+
+€, ce qui, ramené au kg (
+\series bold
+4.25
+\begin_inset space ~
+\end_inset
+
+€/kg
+\series default
+), correspond à peu près au tarif pratiqué par la grande distribution.
+\end_layout
+
+\begin_layout Standard
+Mais les calculs ne s’arrêtent pas là.
+ Si deux clients veulent acheter 5
+\begin_inset space ~
+\end_inset
+
+kg de noix et sont proches géographiquement et décident de regrouper leur
+ commande, alors le total par personne descend à 20
+\begin_inset space ~
+\end_inset
+
+€.
+ S’ils sont trois, le total tombe à 19
+\begin_inset space ~
+\end_inset
+
+€ (soit une diminution de près de 15% par rapport à une commande seule,
+ et un prix au kg de 
+\series bold
+3.8
+\begin_inset space ~
+\end_inset
+
+€/kg
+\series default
+).
+\end_layout
+
+\begin_layout Standard
+Au delà de trois personnes, nous pensons que les regroupements seront plus
+ difficiles à cause de la coordination que cela nécessite, mais on observe
+ que déjà à partir d’un regroupement de 3 personnes, le prix chute considérablem
+ent, et se positionne même en-dessous de celui pratiqué par la grande distributi
+on.
+ D’autres calculs semblables ont été effectués avec d’autres produits (huile
+ d’olive, biscuits, chocolats, etc.) et ont produit les mêmes résultats.
+\end_layout
+
+\begin_layout Subsection
+Marché ciblé et stratégie
+\end_layout
+
+\begin_layout Standard
+EquiDist s’adresse plus particulièrement à la frange de la population sensible
+ à la notion de développement durable.
+\end_layout
+
+\begin_layout Standard
+La part des coûts variables de notre activité étant faible, notre stratégie
+ consiste à positionner des prix bas (c’est-à-dire prélever une faible commissio
+n sur les commandes effectuées par les clients) et chercher à s’étendre
+ le plus rapidement possible sur le territoire (de façon à toucher le plus
+ rapidement possible un maximum de clients).
+ Cependant, afin d’éviter des problèmes de gestion dus à une montée en charge
+ trop rapide, nous prévoyons de démarrer notre activité dans un secteur
+ géographique réduit (Rennes Métropole) et nous ne nous étendrons que lorsque
+ notre système sera bien rôdé.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Itemize
+Étude de marché.
+ Macro puis micro.
+ Éléments sociaux, économiques, environnementaux, technologiques.
+\end_layout
+
+\begin_layout Itemize
+Facteurs de succès
+\end_layout
+
+\begin_layout Itemize
+Obstacles
+\end_layout
+
+\begin_layout Itemize
+Marché ciblé (âge, revenu).
+ Comment allons-nous l’atteindre
+\begin_inset space ~
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Itemize
+Concurrents (directs et indirects).
+ Positionnement de nos prix.
+\end_layout
+
+\begin_layout Itemize
+Promotional Strategy.
 \end_layout
 
 \end_inset
@@ -658,259 +1062,23 @@ Besoins humains.
 \end_layout
 
 \begin_layout Section
-Plan commercial
-\end_layout
-
-\begin_layout Subsection
-Contexte général
-\end_layout
-
-\begin_layout Standard
-Depuis quelques années, les sociétés de vente en ligne sont en grande augmentati
-on.
- Cependant, les produits alimentaires ne représentent que 14% de marché.
- Pourtant, des études indiquent qu’il y a de la place pour l’émergence de
- nouveaux modes de distribution pour la vente en ligne de produits alimentaires
-\begin_inset CommandInset citation
-LatexCommand cite
-key "CredocVPAL09"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-Le coût de l’énergie augmente plus vite que les revenus et le problème du
- changement climatique pèse sur les activités économiques.
- Le commerce en ligne et la vente en directe permettent de faire des économies
- d’énergie, donc des émissions de 
-\begin_inset Formula $CO_{2}$
-\end_inset
-
-
-\begin_inset CommandInset citation
-LatexCommand cite
-key "BuyDotCom08,KialaEcolo,TICTransports"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-Les producteurs manifestent de plus en plus leur sentiment d’injustice et
- de manque de reconnaissance
-\begin_inset space ~
-\end_inset
-
-: ils ne fixent pas les prix des produits qu’ils vendent et en souffrent
-\begin_inset CommandInset citation
-LatexCommand cite
-key "AgriculteursDistributeurs11"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-Le Web est un moyen formidable de relier les gens entre eux, à condition
- qu’ils sachent qu’ils aient intérêt à le faire.
-\end_layout
-
-\begin_layout Subsection
-Concurrence
-\end_layout
-
-\begin_layout Standard
-Les points forts d’EquiDist par rapport à la concurrence sont
-\begin_inset space ~
-\end_inset
-
-:
-\end_layout
-
-\begin_layout Description
-Économique Les commandes groupées reviennent moins cher que chez tous les
- autres concurrents (pour un produit de même qualité)
-\begin_inset space ~
-\end_inset
-
-;
-\end_layout
-
-\begin_layout Description
-Écologique Le bilan carbone est nettement meilleur qu’avec tous les autres
- systèmes
-\begin_inset space ~
-\end_inset
-
-;
-\end_layout
-
-\begin_layout Description
-Social Pas de pression sur les producteurs, vie de quartier renforcée.
-\end_layout
-
-\begin_layout Standard
-Le principal inconvénient de notre système est que pour être vraiment plus
- compétitif que la grande distribution (au niveau des prix), il faut que
- les clients se regroupent entre eux (les frais de port peuvent être divisés
- par trois), ce qui n’est pas habituel, nécessite un effort supplémentaire
- et rallonge les délais d’accès aux produits (alors que dans un supermarché
- le produit est disponible immédiatement).
-\end_layout
-
-\begin_layout Standard
-Prenons un exemple pour illustrer la position d’EquiDist par rapport à la
- concurrence.
- M.
- Stéphane Ferlin produit des noix de Grenoble AOC qu’il vend à 2.70
-\begin_inset space ~
-\end_inset
-
-€/kg conditionnées en filets de 5
-\begin_inset space ~
-\end_inset
-
-kg.
- Sur la majorité des sites de vente en ligne, les noix ne sont disponibles
- qu’en petits conditionnements (maximum 1
-\begin_inset space ~
-\end_inset
-
-kg), et leur prix est d’environ 8
-\begin_inset space ~
-\end_inset
-
-€/kg.
- En grande surface, le prix des noix est généralement supérieur à 4
-\begin_inset space ~
-\end_inset
-
-€/kg.
- Avec EquiDist, acheter un filet de 5
-\begin_inset space ~
-\end_inset
-
-kg coûte 13.50
-\begin_inset space ~
-\end_inset
-
-€ auxquels s’ajoutent des frais de port (6
-\begin_inset space ~
-\end_inset
-
-€ dans ce cas) et des frais de fonctionnement (ici 2.50
-\begin_inset space ~
-\end_inset
-
-€), soit un total de 22
-\begin_inset space ~
-\end_inset
-
-€, ce qui, ramené au kg (4.25
-\begin_inset space ~
-\end_inset
-
-€/kg), correspond à peu près au tarif pratiqué par la grande distribution.
-\end_layout
-
-\begin_layout Standard
-Mais les calculs ne s’arrêtent pas là.
- Si deux clients veulent acheter 5
-\begin_inset space ~
-\end_inset
-
-kg de noix et sont proches géographiquement et décident de regrouper leur
- commande, alors le total par personne descend à 20
-\begin_inset space ~
-\end_inset
-
-€.
- S’ils sont trois, le total tombe à 19
-\begin_inset space ~
-\end_inset
-
-€ (soit une diminution de près de 15% par rapport à une commande seule).
- Au delà de trois personnes, nous pensons que les regroupements seront plus
- difficiles à cause de la coordination que cela nécessite, mais on observe
- que déjà à partir d’un regroupement de 3 personnes, le prix chute considérablem
-ent, et se positionne même en-dessous de celui pratiqué par la grande distributi
-on.
- D’autres calculs semblables ont été effectués avec d’autres produits (huile
- d’olive, biscuits, chocolats, etc.) et ont produit les mêmes résultats.
-\end_layout
-
-\begin_layout Subsection
-Marché ciblé et stratégie
-\end_layout
-
-\begin_layout Standard
-EquiDist s’adresse plus particulièrement à la frange de la population sensible
- à la notion de développement durable.
-\end_layout
-
-\begin_layout Standard
-La part des coûts variables de notre activité étant faible, notre stratégie
- consiste à positionner des prix bas (c’est-à-dire prélever une faible commissio
-n sur les commandes effectuées par les clients) et chercher à s’étendre
- le plus rapidement possible sur le territoire (de façon à toucher le plus
- rapidement possible un maximum de clients).
- Cependant, afin d’éviter des problèmes de gestion dus à une montée en charge
- trop rapide, nous prévoyons de démarrer notre activité dans un secteur
- géographique réduit (Rennes Métropole) et nous ne nous étendrons que lorsque
- notre système sera bien rôdé.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Itemize
-Étude de marché.
- Macro puis micro.
- Éléments sociaux, économiques, environnementaux, technologiques.
-\end_layout
-
-\begin_layout Itemize
-Facteurs de succès
-\end_layout
-
-\begin_layout Itemize
-Obstacles
-\end_layout
-
-\begin_layout Itemize
-Marché ciblé (âge, revenu).
- Comment allons-nous l’atteindre
-\begin_inset space ~
-\end_inset
-
-?
-\end_layout
-
-\begin_layout Itemize
-Concurrents (directs et indirects).
- Positionnement de nos prix.
-\end_layout
-
-\begin_layout Itemize
-Promotional Strategy.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
 Prévisions financières
 \end_layout
 
 \begin_layout Subsection
-Méthode
+Dépenses
+\end_layout
+
+\begin_layout Standard
+Nos salaires.
+\end_layout
+
+\begin_layout Standard
+Pas de négoce.
+\end_layout
+
+\begin_layout Subsection
+Estimation des recettes
 \end_layout
 
 \begin_layout Standard
@@ -978,8 +1146,6 @@ reference "fig:ventes"
 \end_inset
 
  montre l’allure de l’évolution des ventes selon les deux scénarios.
- Le nombre de ventes nécessaires pour assurer la viabilité de l’activité
- se situe aux alentours de 300 commandes mensuelles.
 \end_layout
 
 \begin_layout Standard
@@ -1022,6 +1188,17 @@ kg, soit 15
 \end_inset
 
  pour EquiDist.
+\end_layout
+
+\begin_layout Standard
+Les calculs effectués pour chaque producteur nous conduisent à estimer le
+ bénéfice moyen d’une commande à 20
+\begin_inset space ~
+\end_inset
+
+€[À vérifier depuis le Docs], ce qui élève le nombre de ventes nécessaires
+ pour assurer la viabilité de l’activité aux alentours de 300 commandes
+ mensuelles.
 \end_layout
 
 \begin_layout Subsection
@@ -1158,6 +1335,59 @@ k€) pour le scénario optimiste (resp.
 
 \begin_layout Subsection
 Détail de la première année
+\end_layout
+
+\begin_layout Standard
+La figure [Ref] montre l’évolution des recettes et dépenses sur la première
+ année, mois par mois, pour chaque scénario.
+ Le graphique peut se découper en 3 grandes phases
+\begin_inset space ~
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Enumerate
+Développement du système informatique (jusqu’à 2 ou 4 mois selon les scénarios)
+\begin_inset space ~
+\end_inset
+
+: cette phase se caractérise par l’absence de chiffre d’affaire
+\begin_inset space ~
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+Mise en production et ajustements éventuels (jusqu’à 8 ou 12 mois selon
+ les scénarios)
+\begin_inset space ~
+\end_inset
+
+: une fois le système informatique suffisamment développé il sera mis en
+ production et permettra d’accueillir les commandes des Rennais.
+ Cette phase sera utilisée pour appliquer d’éventuelles améliorations et
+ anticiper la phase suivante
+\begin_inset space ~
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+Expansion
+\begin_inset space ~
+\end_inset
+
+: une fois le système informatique validé à la phase précédente, nous réaliseron
+s une opération commerciale afin de toucher des clients dans une autre métropole
+ et atteindre l’équilibre financier.
+\end_layout
+
+\begin_layout Standard
+La figure [Ref] détaille la répartition type des dépenses et recettes mensuelles.
+ On observe que la majorité des dépenses est constituée par les salaires.
 \end_layout
 
 \begin_layout Standard
