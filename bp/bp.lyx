@@ -97,7 +97,7 @@ LatexCommand tableofcontents
 
 \end_layout
 
-\begin_layout Part
+\begin_layout Section
 
 \shape italic
 Executive Summary
@@ -115,7 +115,7 @@ Chris: Faudra mettre en valeur tout les EquiDist d'une façon ou d'une autre.
 
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Contexte
 \end_layout
 
@@ -196,7 +196,7 @@ ns locales, et encourageant une consommation compatible avec les valeurs
  en produits non locaux.
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Solution
 \end_layout
 
@@ -267,7 +267,7 @@ key "KialaEcolo,BuyDotCom08"
 Ainsi, tous les problèmes évoqués précédemment sont adressés par EquiDist.
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Marché
 \end_layout
 
@@ -304,7 +304,7 @@ Avantages sur quoi
 .
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Forces vives
 \end_layout
 
@@ -373,7 +373,7 @@ key "TICTransports,KialaEcolo,BuyDotCom08"
 .
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Trésorerie
 \end_layout
 
@@ -467,7 +467,7 @@ Summary of financial requirements and projections
 
 \end_layout
 
-\begin_layout Part
+\begin_layout Section
 Fonctionnement
 \end_layout
 
@@ -657,12 +657,12 @@ Besoins humains.
 
 \end_layout
 
-\begin_layout Part
+\begin_layout Section
 Plan commercial
 \end_layout
 
-\begin_layout Section
-Contexte
+\begin_layout Subsection
+Contexte général
 \end_layout
 
 \begin_layout Standard
@@ -688,6 +688,13 @@ Le coût de l’énergie augmente plus vite que les revenus et le problème du
 \begin_inset Formula $CO_{2}$
 \end_inset
 
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "BuyDotCom08,KialaEcolo,TICTransports"
+
+\end_inset
+
 .
 \end_layout
 
@@ -697,7 +704,14 @@ Les producteurs manifestent de plus en plus leur sentiment d’injustice et
 \begin_inset space ~
 \end_inset
 
-: ils ne fixent pas les prix des produits qu’ils vendent et en souffrent.
+: ils ne fixent pas les prix des produits qu’ils vendent et en souffrent
+\begin_inset CommandInset citation
+LatexCommand cite
+key "AgriculteursDistributeurs11"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -705,7 +719,7 @@ Le Web est un moyen formidable de relier les gens entre eux, à condition
  qu’ils sachent qu’ils aient intérêt à le faire.
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Concurrence
 \end_layout
 
@@ -829,7 +843,7 @@ on.
  d’olive, biscuits, chocolats, etc.) et ont produit les mêmes résultats.
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Marché ciblé et stratégie
 \end_layout
 
@@ -891,8 +905,12 @@ Promotional Strategy.
 
 \end_layout
 
-\begin_layout Part
+\begin_layout Section
 Prévisions financières
+\end_layout
+
+\begin_layout Subsection
+Méthode
 \end_layout
 
 \begin_layout Standard
@@ -907,7 +925,7 @@ Nous avons travaillé sur un scénario pessimiste et un scénario optimiste
  expansion).
  Le scénario pessimiste prend pour hypothèses que le temps de développement
  du site serait deux fois plus long et surtout que la pénétration dans le
- marché serait deux fois plus lente.
+ marché serait deux fois plus lente que dans la variante optimiste.
 \end_layout
 
 \begin_layout Standard
@@ -1004,6 +1022,10 @@ kg, soit 15
 \end_inset
 
  pour EquiDist.
+\end_layout
+
+\begin_layout Subsection
+Prévisions à moyen terme
 \end_layout
 
 \begin_layout Standard
@@ -1132,6 +1154,10 @@ k€ (resp.
 
 k€) pour le scénario optimiste (resp.
  pessimiste).
+\end_layout
+
+\begin_layout Subsection
+Détail de la première année
 \end_layout
 
 \begin_layout Standard
