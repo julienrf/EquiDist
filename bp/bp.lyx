@@ -137,7 +137,14 @@ key "LaTerre"
 \begin_layout Standard
 Par ailleurs, ce système, onéreux pour les consommateurs, ne rémunère souvent
  pas correctement les producteurs, comme en témoignent des récentes manifestatio
-ns à ce sujet[missing ref].
+ns à ce sujet
+\begin_inset CommandInset citation
+LatexCommand cite
+key "AgriculteursDistributeurs11"
+
+\end_inset
+
+.
  Ces manifestants ne sont pas les seuls à exprimer un désir de changement
 \begin_inset space ~
 \end_inset
@@ -356,7 +363,14 @@ renforcer les liens sociaux et la vie de quartier grâce aux regroupements
 
 \begin_layout Itemize
 réduire l’impact environnemental du processus de distribution grâce au système
- hautement dématérialisé[missing ref].
+ hautement dématérialisé
+\begin_inset CommandInset citation
+LatexCommand cite
+key "TICTransports,KialaEcolo,BuyDotCom08"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection*
@@ -1159,7 +1173,7 @@ Combien de fonds nécessaires
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "references"
-options "bibtotoc,plain"
+options "bibtotoc,unsrt"
 
 \end_inset
 
