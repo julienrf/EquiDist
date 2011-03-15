@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -275,7 +275,8 @@ Marché
 Ce système est adapté à la distribution de tout produit non périssable (céréales
 , oléagineux, biscuits, chocolats, vins, etc.) et vise en particulier les
  urbains sensibles aux valeurs écologistes et sociales, et utilisateurs
- conscients des avantages de l'Internet
+ conscients des avantages de l'Internet, qui fournit une communauté toujours
+ grandissante liéé par des voies de communication instantanées.
 \begin_inset Note Note
 status open
 
@@ -406,6 +407,10 @@ re de la trésorerie), ça mettra probablement un peu de temps avant qu’on
  nos dettes.
  J’aimerais bien dire 1 an, mais j’ai bien peur que ce soit malhonnête.
  Je ne vois pas concrètement comment atteindre cette échéance.
+\end_layout
+
+\begin_layout Plain Layout
+Chris: La R&D ça peut aussi être la recherche des clients de base.
 \end_layout
 
 \end_inset
@@ -661,7 +666,8 @@ Les points forts d’EquiDist par rapport à la concurrence sont
 \end_layout
 
 \begin_layout Description
-Social Pas de pression sur les producteurs, vie de quartier renforcée.
+Social Des communautés locales lient les consommateurs, se formant autour
+ d'un marché équitable et autour des producteurs.
 \begin_inset Note Note
 status open
 
@@ -671,6 +677,10 @@ Julien: Bon, là ça fait trois fois que je dis ça, on peut peut-être le virer
 \end_inset
 
 ?
+\end_layout
+
+\begin_layout Plain Layout
+Chris: Mieux?
 \end_layout
 
 \end_inset
@@ -926,6 +936,36 @@ target "http://www.kiala.fr"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Producteurs.png
+	width 14cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+La page producteurs du site web.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Note Note
 status open
 
@@ -954,14 +994,14 @@ Lorsqu’un client passe une commande, EquiDist la transmet au producteur
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
-	filename business-model.pdf
-	width 13cm
+	filename business-model.png
+	width 14cm
 
 \end_inset
 
@@ -1100,7 +1140,7 @@ Nous avons travaillé sur un scénario pessimiste et un scénario optimiste
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
