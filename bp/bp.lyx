@@ -155,8 +155,8 @@ key "AgriculteursDistributeurs11"
 status open
 
 \begin_layout Plain Layout
-Les Association pour le Maintien d’une Agriculture Paysanne permettent à
- leurs adhérents de passer des contrats avec des producteurs locaux, les
+Les Associations pour le Maintien d’une Agriculture Paysanne permettent
+ à leurs adhérents de passer des contrats avec des producteurs locaux, les
  engageant à acheter leurs produits tout au long de la saison.
 \end_layout
 
@@ -172,15 +172,8 @@ Enfin, la grande distribution propose surtout des conditionnements de petite
 \end_layout
 
 \begin_layout Standard
-Tous ces problèmes, d’ordre économiques, sociaux et écologiques —
-\begin_inset space ~
-\end_inset
-
-les piliers du développement durable
-\begin_inset space ~
-\end_inset
-
-—, soulignent le besoin de nouveaux circuits de distribution.
+Tous ces problèmes, d’ordres économiques, sociaux et écologiques, soulignent
+ le besoin de nouveaux circuits de distribution.
  Des circuits alternatifs «
 \begin_inset space ~
 \end_inset
@@ -206,41 +199,22 @@ EquiDist est un service en ligne qui permet de mettre en relation directe
  Les producteurs y présentent leur travail et leurs produits de façon attractive
  (photos, vidéos, etc.), et les consommateurs commandent en ligne avec des
  possibilités de regroupement par proximité géographique.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Chris: Faut bien expliquer que c'est pas Ebay, et que c'est plus facile
- que de se regrouper manuellement.
-\end_layout
-
-\begin_layout Plain Layout
-Julien: Ça sera dans la partie 2.
- Ici c’est juste un summary.
-\end_layout
-
-\begin_layout Plain Layout
-Chris: Mais ici on leur donne la solution, et si c'est pas différent, on
- perd directement l'intérêt.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
 En supprimant le stockage intermédiaire, EquiDist assume des coûts de fonctionne
 ment particulièrement faibles ce qui permet de proposer des prix attractifs.
  Nos estimations montrent des prix, à qualité de produit équivalente, du
- même ordre de grandeur que ceux pratiqués dans la grande distribution.
+ même ordre de grandeur que ceux pratiqués dans la grande distribution,
+ et environ deux fois moins cher que les autres sites de vente en ligne
+ de produits alimentaires.
 \end_layout
 
 \begin_layout Standard
-Ensuite, EquiDist référence les producteurs sans faire pression sur eux
- (ils fixent eux-mêmes leurs prix) et les rapproche des consommateurs, donnant
- à ces derniers plus de visibilité sur le travail humain derrière les produits
- qu’ils consomment.
+Par ailleurs, EquiDist référence les producteurs sans faire pression sur
+ eux (ils fixent eux-mêmes leurs prix) et les rapproche des consommateurs,
+ donnant à ces derniers plus de visibilité sur le travail humain derrière
+ les produits qu’ils consomment.
 \end_layout
 
 \begin_layout Standard
@@ -259,8 +233,6 @@ key "KialaEcolo,BuyDotCom08"
 \end_inset
 
  et diminue encore ses prix.
- En effet, par rapport aux autres solutions de vente en ligne de produits
- alimentaires, EquiDist est environ deux fois moins cher.
 \end_layout
 
 \begin_layout Standard
@@ -302,7 +274,7 @@ EquiDist est porté par deux étudiants de Master d’Informatique convaincus
  système dans lequel ils vivent.
  Leurs compétences en informatique sont complémentaires, l’un étant spécialisé
  dans la conception d’architectures logicielles, et l’autre dans la réalisation
- d’interfaces homme-machine ergonomiques et inuitives.
+ d’interfaces utilisateur ergonomiques et inuitives.
 \end_layout
 
 \begin_layout Standard
@@ -440,34 +412,18 @@ Contexte général
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Julien: Ici je pense qu’il faudrait préciser ce qui a été mis en section
- 1.1 mais j’ai l’impression que ce que j’ai mis se limite à répéter ce qui
- était déjà écrit…
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Depuis quelques années, les sociétés de vente en ligne sont en grande augmentati
-on 
+Depuis plusieurs années les sociétés de vente en ligne sont en augmentation
+ de près de 30% par an 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "FevadChiffresCles10"
 
 \end_inset
 
-.
- Cependant, les produits alimentaires ne représentent que 14% de marché.
- Pourtant, des études indiquent qu’il y a de la place pour l’émergence de
- nouveaux modes de distribution pour la vente en ligne de produits alimentaires
- 
+, cependant le secteur des produits alimentaires ne représente que 14% du
+ marché.
+ Pourtant, des études suggèrent que ce secteur devrait encore croître, surtout
+ si ses acteurs gèrent mieux les problèmes de logistique 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "CredocVPAL09"
@@ -511,11 +467,9 @@ key "AgriculteursDistributeurs11,JacquiauGrandeDistribution"
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Standard
-Le Web est un moyen formidable de relier les gens entre eux, à condition
- qu’ils sachent qu’ils aient intérêt à le faire.
+ Les consommateurs n’ont que très peu conscience de ces problèmes car la
+ grande distribution introduit trop de distance entre les premiers et les
+ seconds.
 \end_layout
 
 \begin_layout Subsection
@@ -572,15 +526,14 @@ Réponses à la question «
 
 \end_inset
 
-Nous avons réalisé un sondage que nous avons soumis à l’ensemble des promotions
+Nous avons réalisé un sondage qui a été soumis à l’ensemble des promotions
  d’étudiants en informatique à l’université de Rennes
 \begin_inset space ~
 \end_inset
 
-1 ainsi qu’à quelques autres relations (telles que des associations étudiantes).
- Ce sondage a été rempli par 240 personnes et contenait des questions sur
- leurs habitudes alimentaires et surtout sur leur adhésion à notre système
- de distribution.
+1 ainsi qu’à des associations étudiantes.
+ Il a été rempli par 240 personnes et contenait des questions sur leurs
+ habitudes alimentaires et leur adhésion à notre système de distribution.
  La figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -589,8 +542,11 @@ reference "fig:sondage"
 \end_inset
 
  montre la répartition des réponses à une de ces questions.
- L’ensemble des réponses obtenues suggère que les personnes interrogées
- sont plutôt intéressées par notre système.
+\end_layout
+
+\begin_layout Standard
+L’ensemble des réponses obtenues suggère que les personnes interrogées sont
+ plutôt intéressées par notre système.
 \end_layout
 
 \begin_layout Subsection
