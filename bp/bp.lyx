@@ -1086,11 +1086,11 @@ Nous avons travaillé sur un scénario pessimiste et un scénario optimiste
  pour estimer nos recettes.
  Le scénario optimiste reste cependant très prudent car il ne correspond
  à une pénétration du marché que de 
-\begin_inset Formula $1.25\%$
+\begin_inset Formula $1.3\%$
 \end_inset
 
- (ceci sans même prendre en compte le fait que ce marché est toujours en
- expansion).
+ en 4 ans (ceci sans même prendre en compte le fait que ce marché est toujours
+ en expansion).
  Le scénario pessimiste prend pour hypothèses que le temps de développement
  du site serait deux fois plus long et surtout que la pénétration dans le
  marché serait deux fois plus lente que dans la variante optimiste.
@@ -1449,7 +1449,7 @@ on du système.
 \begin_inset Float table
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
