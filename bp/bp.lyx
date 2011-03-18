@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -276,28 +276,15 @@ Ce système est adapté à la distribution de tout produit non périssable (cér
 , oléagineux, biscuits, chocolats, vins, etc.) et vise en particulier les
  urbains sensibles aux valeurs écologistes et sociales, et utilisateurs
  conscients des avantages de l'Internet, qui fournit une communauté toujours
- grandissante liéé par des voies de communication instantanées.
+ grandissante liée par des voies de communication instantanées
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-Julien: On devrait préciser «
-\begin_inset space ~
-\end_inset
-
-Avantages sur quoi
-\begin_inset space ~
-\end_inset
-
-? Par rapport à quoi
-\begin_inset space ~
-\end_inset
-
-?
-\begin_inset space ~
-\end_inset
-
-»
+Ju: Bon c’est pas que je ne suis pas d’accord avec ce que tu as mis, mais
+ je ne suis pas sûr qu’il soit nécessaire que les clients soient conscients
+ du fait qu’Internet entretien une communauté toujours grandissante liée
+ par des voies de communication instantanées pour utiliser EquiDist.
 \end_layout
 
 \end_inset
@@ -388,34 +375,6 @@ Nos estimations nous conduisent à attendre un résultat net positif au bout
 k€ sera nécessaire pour financer la phase de recherche et développement
  (conception du système de vente en ligne) et la phase d’acquisition d’une
  clientèle suffisante.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Chris: Je pense vraiment pas qu'on peut demander 100 k€ juste en citant
- de la R&D et de la com.
- Et puis ça serait cool de pouvoir dire 1 an.
-\end_layout
-
-\begin_layout Plain Layout
-Ju: Ce n’est pas seulement la R&D et com, c’est surtout le temps de développer
- une clientèle suffisamment importante (la région Rennes Métropole seule
- ne permettra pas d’assurer les 300 commandes mensuelles nécessaires à l’équilib
-re de la trésorerie), ça mettra probablement un peu de temps avant qu’on
- obtienne un tel débit de commandes, et pendant tout ce temps le déficit
- se creuse, et après il faut un temps pour que les bénéfices rattrapent
- nos dettes.
- J’aimerais bien dire 1 an, mais j’ai bien peur que ce soit malhonnête.
- Je ne vois pas concrètement comment atteindre cette échéance.
-\end_layout
-
-\begin_layout Plain Layout
-Chris: La R&D ça peut aussi être la recherche des clients de base.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -668,24 +627,6 @@ Les points forts d’EquiDist par rapport à la concurrence sont
 \begin_layout Description
 Social Des communautés locales lient les consommateurs, se formant autour
  d'un marché équitable et autour des producteurs.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Julien: Bon, là ça fait trois fois que je dis ça, on peut peut-être le virer…
-\begin_inset space ~
-\end_inset
-
-?
-\end_layout
-
-\begin_layout Plain Layout
-Chris: Mieux?
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -958,20 +899,6 @@ La page producteurs du site web.
 \end_inset
 
 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-TODO Mettre des mockups ici ou donner des arguments super convaincants pour
- montrer que notre système est trop addictif.
 \end_layout
 
 \end_inset
