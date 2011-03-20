@@ -39,7 +39,7 @@
 \use_bibtopic false
 \paperorientation portrait
 \secnumdepth 3
-\tocdepth 3
+\tocdepth 2
 \paragraph_separation skip
 \defskip medskip
 \quotes_language french
@@ -218,8 +218,8 @@ En supprimant le stockage intermédiaire, EquiDist assume des coûts de fonction
 ment particulièrement faibles ce qui permet de proposer des prix attractifs.
  Nos estimations montrent des prix, à qualité de produit équivalente, du
  même ordre de grandeur que ceux pratiqués dans la grande distribution,
- et environ deux fois moins cher que ceux des autres sites de vente en ligne
- de produits alimentaires.
+ et environ deux fois moins chers que ceux des autres sites de vente en
+ ligne de produits alimentaires.
 \end_layout
 
 \begin_layout Standard
@@ -285,7 +285,7 @@ EquiDist est porté par deux étudiants de Master d’Informatique convaincus
  que les nouvelles technologies doivent avant tout servir à améliorer le
  système dans lequel ils vivent.
  Leurs compétences en informatique sont complémentaires, l’un étant spécialisé
- dans la conception de logiciels, et l’autre dans l’ergonomie des interfaces
+ dans la conception logicielle, et l’autre dans l’ergonomie des interfaces
  utilisateur.
 \end_layout
 
@@ -515,7 +515,7 @@ packaging
 \shape default
  comme éléments de décision pour choisir un produit plutôt qu’un autre,
  elle occulte d’autres éléments pourtant importants comme l’originalité
- du produit ou la qualité du travail accompli.
+ du produit ou la qualité du travail réalisé.
  EquiDist redonne aux artisans et producteurs toute la visibilité qu’ils
  méritent, donnant ainsi aux consommateurs la conscience du travail nécessaire
  pour réaliser un produit de qualité.
@@ -719,9 +719,9 @@ kg de noix et sont proches géographiquement EquiDist leur permet de regrouper
 \end_inset
 
 € (soit une diminution d’environ 10% par rapport à une commande seule, et
- un prix au kg de 
+ un prix de 
 \series bold
-3.8
+3.80
 \begin_inset space ~
 \end_inset
 
@@ -1017,7 +1017,7 @@ Gestion des regroupements
 
 \begin_layout Standard
 La gestion du regroupement des clients nécessite le développement d’un nouveau
- logiciel car aucun système de e-commerce actuel ne fournit cette fonctionnalité.
+ logiciel car aucun système d’e-commerce actuel ne fournit cette fonctionnalité.
  Ainsi, chaque client fournira ses coordonnées au système qui se chargera
  de calculer quels autres clients sont proches géographiquement.
  Ensuite, lorsque le client s’intéressera à un producteur il pourra automatiquem
@@ -1103,7 +1103,7 @@ lorsqu’un client passe une commande il a la possibilité de mettre sa commande
 
 \begin_layout Standard
 Si le client est intéressé par un regroupement il est automatiquement mis
- en relation avec l’autre client et peuvent décider de continuer à attendre
+ en relation avec l’autre client et ils peuvent décider de continuer à attendre
  d’autres clients ou de recevoir leur commande.
 \end_layout
 
@@ -1118,6 +1118,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename Regroupement.png
+	lyxscale 80
 	width 13cm
 
 \end_inset
@@ -1231,14 +1232,14 @@ Espace réservé aux producteurs
 \begin_layout Standard
 Le système informatique permettra également aux producteurs de présenter
  facilement leurs produits.
- Ils auront la possibilité de publier des photos, des descriptions de leur
- travail et même des vidéos.
+ Ils auront la possibilité de publier des photos, des descriptions et même
+ des vidéos de leur travail.
 \end_layout
 
 \begin_layout Standard
 En outre, ils pourront renseigner pour chaque produit les quantités disponibles
  à la vente en ligne.
- Cette information sera utilisée en interne s’assurer qu’aucune commande
+ Cette information sera utilisée en interne pour assurer qu’aucune commande
  ne pourra être passée pour un produit épuisé.
 \end_layout
 
@@ -1431,20 +1432,12 @@ type
 
 \begin_layout Standard
 Par exemple, une commande regroupant 3 foyers auprès d’un producteur de
- noix peut contenir 4 filets de 5 kg de noix et 3 bouteilles de 1 litre
+ noix peut contenir 4 filets de 5 kg de noix et 3 bouteilles d’un litre
  d’huile de noix, ce qui correspond à un prix (payé au producteur) de 90
 \begin_inset space ~
 \end_inset
 
-€ et un poids de 23
-\begin_inset space ~
-\end_inset
-
-kg, soit 15
-\begin_inset space ~
-\end_inset
-
-€ de frais de ports, ainsi qu’une commission de 
+€ donc une commission de 
 \begin_inset Formula $90*15\%=13.50\,\text{€}$
 \end_inset
 
