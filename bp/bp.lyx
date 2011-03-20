@@ -162,6 +162,18 @@ Les Associations pour le Maintien d’une Agriculture Paysanne proposent à
 
 \end_inset
 
+ ou GASE
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Un Groupement d’Achat avec Service d’Épicerie est un regroupement de consommateu
+rs achetant directement de gros volumes à des producteurs ou des centrales
+ d’achat.
+\end_layout
+
+\end_inset
+
 .
 \end_layout
 
@@ -493,6 +505,7 @@ key "AgriculteursDistributeurs11,JacquiauGrandeDistribution"
 \end_inset
 
 .
+ Par ailleurs, ils sont souvent payés avec un délai de plusieurs semaines.
  Malheureusement, les consommateurs n’ont que très peu conscience de ces
  problèmes car la grande distribution introduit trop de distance entre les
  premiers et les seconds.
@@ -724,12 +737,12 @@ Les noix ne sont pas un produit lourd, mais selon le poids des produits,
 \end_layout
 
 \begin_layout Standard
-Le principal inconvénient de notre système est que pour être vraiment plus
- compétitif que la grande distribution (au niveau des prix), il faut que
- les clients se regroupent entre eux (les frais de port peuvent être divisés
- par trois), ce qui n’est pas habituel, nécessite un effort supplémentaire
- et rallonge les délais d’accès aux produits (alors que dans un supermarché
- le produit est disponible immédiatement).
+Le principal inconvénient de notre système est que pour proposer des prix
+ vraiment plus compétitifs que la grande distribution, il faut que les clients
+ se regroupent entre eux (les frais de port peuvent être divisés par trois),
+ ce qui n’est pas habituel, nécessite un effort supplémentaire et rallonge
+ les délais d’accès aux produits (alors que dans un supermarché le produit
+ est disponible immédiatement).
 \end_layout
 
 \begin_layout Standard
@@ -739,8 +752,8 @@ Au delà de trois personnes, nous pensons que les regroupements seront plus
  d’un regroupement de seulement 3 personnes, le prix chute considérablement,
  et se positionne même en-dessous de celui pratiqué par la grande distribution.
  D’autres calculs semblables ont été effectués avec les produits des autres
- producteurs (huile d’olive, biscuits, chocolats, etc.) et ont donné les
- mêmes résultats.
+ producteurs (huile d’olive, biscuits, chocolats, etc.) et ont donné des
+ résultats du même ordre de grandeur.
 \end_layout
 
 \begin_layout Subsection
@@ -837,7 +850,9 @@ Cette structure nous a semblé la plus en accord avec les valeurs que nous
 \end_layout
 
 \begin_layout Standard
-Par ailleurs cette forme juridique peut nous donner certains avantages fiscaux.
+Par ailleurs cette forme juridique peut nous donner certains avantages fiscaux,
+ notamment une exonération de la contribution économique territoriale voire
+ de l’impôt sur les sociétés.
 \end_layout
 
 \begin_layout Standard
@@ -870,7 +885,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename business-model.png
-	width 14cm
+	width 13cm
 
 \end_inset
 
@@ -904,8 +919,46 @@ Business Model
 
 \end_layout
 
+\begin_layout Standard
+La figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:business-model"
+
+\end_inset
+
+ illustre le 
+\shape italic
+business model
+\shape default
+ de notre société.
+ À chaque fois qu’un client achète des produits à un producteur, nous prélevons
+ une commission et nous payons le producteur et le service de transport
+ (qui est externe).
+ Le prix de vente correspond donc à la somme de ces trois coûts.
+ Les fournisseurs sont —
+\begin_inset space ~
+\end_inset
+
+évidemment
+\begin_inset space ~
+\end_inset
+
+— payés immédiatement.
+\end_layout
+
+\begin_layout Standard
+La commission prélevée sur les commandes des clients sert à payer les salaires
+ et autres charges (matériel informatique, bureaux, frais de déplacement,
+ prestataires, etc.).
+\end_layout
+
 \begin_layout Subsection
 Mise en œuvre
+\end_layout
+
+\begin_layout Subsubsection
+Description globale
 \end_layout
 
 \begin_layout Standard
@@ -934,7 +987,7 @@ regrouper leurs commandes
 \series default
 .
  La livraison se fera ensuite, au choix, chez l’un des clients ou dans un
- point relais Kiala
+ point de livraison, comme ceux fournis par le réseau Kiala
 \begin_inset Foot
 status open
 
@@ -953,8 +1006,23 @@ target "http://www.kiala.fr"
 \end_inset
 
 , selon leurs disponibilités.
- Le regroupement facilite le travail du transporteur et diminue par conséquent
- les frais de port.
+ Le regroupement facilite le travail du transporteur (qui sera réalisé par
+ un prestataire tel que GLS ou La Poste) et diminue par conséquent les frais
+ de port.
+\end_layout
+
+\begin_layout Subsubsection
+Gestion des regroupements
+\end_layout
+
+\begin_layout Standard
+La gestion du regroupement des clients nécessite le développement d’un nouveau
+ logiciel car aucun système de e-commerce actuel ne fournit cette fonctionnalité.
+ Ainsi, chaque client fournira ses coordonnées au système qui se chargera
+ de calculer quels autres clients sont proches géographiquement.
+ Ensuite, lorsque le client s’intéressera à un producteur il pourra automatiquem
+ent connaître les clients proches de chez lui également intéressés par ce
+ même producteur, et envisager un regroupement.
 \end_layout
 
 \begin_layout Standard
@@ -964,9 +1032,12 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Graphics
 	filename Producteurs.png
-	width 14cm
+	lyxscale 50
+	width 13cm
 
 \end_inset
 
@@ -994,14 +1065,190 @@ La page producteurs du site web.
 \end_layout
 
 \begin_layout Standard
-Pour les besoins spécifiques d’EquiDist aucune solution existante de système
- de vente en ligne n’est satisfaisante.
- Il est nécessaire de développer un système innovant, capable de faciliter
- le regroupement des commandes par proximité géographique.
+Plus précisément la page listant les producteurs ressemblera à ce qui est
+ présenté en figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:mockup-producteurs"
+
+\end_inset
+
+.
+ Les clients verront, bien sûr, les produits fabriqués par le producteur,
+ mais également les possibilités de regroupement.
 \end_layout
 
 \begin_layout Standard
-Cette période de recherche et développement est estimée à 
+Un regroupement peut être possible dans deux situations
+\begin_inset space ~
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+lorsqu’un client indique qu’il est intéressé par un producteur et envisage
+ une commande future
+\begin_inset space ~
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Itemize
+lorsqu’un client passe une commande il a la possibilité de mettre sa commande
+ en attente pendant un certain délai, laissant le temps à d’autres clients
+ proches de le rejoindre.
+\end_layout
+
+\begin_layout Standard
+Si le client est intéressé par un regroupement il est automatiquement mis
+ en relation avec l’autre client et peuvent décider de continuer à attendre
+ d’autres clients ou de recevoir leur commande.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Regroupement.png
+	width 13cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:mockup-group"
+
+\end_inset
+
+La sélection d’un regroupement sur le site web
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:mockup-group"
+
+\end_inset
+
+ montre la page permettant à un client ayant passé une commande de se regrouper
+ avec d’autres clients proches en attente.
+ Une carte interactive permet de visualiser directement la position relative
+ des autres clients qui sont ensuite listés par distance croissante.
+ Pour chaque regroupement possible le coût des frais de port associé est
+ indiqué, afin que le client ait toutes les informations essentielles pour
+ choisir son regroupement.
+\end_layout
+
+\begin_layout Subsubsection
+Lieu de livraison et réception
+\end_layout
+
+\begin_layout Standard
+Une fois que le client a déterminé s’il se regroupe avec d’autres clients
+ ou non, il choisit le lieu de livraison de sa commande.
+\end_layout
+
+\begin_layout Standard
+Dans un cas comme dans l’autre deux choix sont possibles, la livraison peut
+ avoir lieu
+\begin_inset space ~
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+chez le client (ou l’un des clients participant au regroupement, s’il y
+ a regroupement)
+\begin_inset space ~
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Itemize
+dans un point de livraison Kiala, si aucun client ne pense être disponible
+ au moment de la livraison.
+\end_layout
+
+\begin_layout Standard
+Dans le cas d’une commande groupée, le système s’assure que tous les clients
+ sont d’accord sur le lieu de livraison avant de finaliser la commande.
+\end_layout
+
+\begin_layout Standard
+À ce moment seulement les paiements sont encaissés, les commandes sont transmise
+s aux producteurs et les ordres de transport sont transmis au service de
+ transport.
+\end_layout
+
+\begin_layout Subsubsection
+Confiance
+\end_layout
+
+\begin_layout Standard
+Pour encourager les clients à se regrouper avec des personnes qu’ils ne
+ connaissent pas encore, le logiciel intégrera un système de confiance
+\begin_inset space ~
+\end_inset
+
+: chaque client peut laisser un avis positif ou négatif après avoir effectué
+ une commande groupée avec un autre client.
+ Ces avis sont synthétisés en un pourcentage de satisfaction qui est affiché
+ en face de chaque client lors de la sélection d’un regroupement.
+\end_layout
+
+\begin_layout Subsubsection
+Espace réservé aux producteurs
+\end_layout
+
+\begin_layout Standard
+Le système informatique permettra également aux producteurs de présenter
+ facilement leurs produits.
+ Ils auront la possibilité de publier des photos, des descriptions de leur
+ travail et même des vidéos.
+\end_layout
+
+\begin_layout Standard
+En outre, ils pourront renseigner pour chaque produit les quantités disponibles
+ à la vente en ligne.
+ Cette information sera utilisée en interne s’assurer qu’aucune commande
+ ne pourra être passée pour un produit épuisé.
+\end_layout
+
+\begin_layout Subsubsection
+Besoins humains
+\end_layout
+
+\begin_layout Standard
+Le développement du système informatique se fera pendant une période de
+ recherche et développement estimée à 
 \begin_inset Formula $4\, ingénieurs*mois$
 \end_inset
 
@@ -1010,15 +1257,14 @@ Cette période de recherche et développement est estimée à
 \end_inset
 
 k€.
- En outre, quand le nombre de commandes mensuelles deviendra trop important,
- il est possible que nous ayions besoin d’une personne supplémentaire dans
- l’équipe, afin de réagir plus rapidement aux éventuels problèmes (lesquels
-\begin_inset space ~
-\end_inset
+\end_layout
 
-?).
+\begin_layout Standard
+En outre, quand le nombre de commandes mensuelles deviendra trop important,
+ il est possible que nous ayions besoin d’une personne supplémentaire dans
+ l’équipe, afin de réagir plus rapidement aux éventuels problèmes ou demandes.
  C’est pourquoi nous envisageons d’embaucher un troisième associé-salarié
- après 2 ans et demi d’activité.
+ après 2 ans d’activité.
 \end_layout
 
 \begin_layout Standard
@@ -1063,11 +1309,32 @@ Dépenses
 \end_layout
 
 \begin_layout Standard
-Nos salaires.
+Les principales dépenses dues à notre activité sont constituées par les
+ salaires.
+ En effet, notre travail consiste à fournir un espace dématérialisé de rencontre
+s entre producteurs et consommateurs.
+ Nous n’achetons aucune matière première pour la transformer, et nous ne
+ stockons aucun produit.
 \end_layout
 
 \begin_layout Standard
-Pas de négoce.
+Le seul facteur de travail variable avec le chiffre d’affaire est l’hébergement
+ du site web.
+ Celui-ci dépend directement de la charge (nombre de requêtes), mais reste
+ très marginal par rapport aux autres coûts, fixes.
+\end_layout
+
+\begin_layout Standard
+Les dépenses moyennes mensuelles seraient de 8.5
+\begin_inset space ~
+\end_inset
+
+k€ les deux premières années, puis 11
+\begin_inset space ~
+\end_inset
+
+k€ à partir de la troisième année (à cause de l’embauche d’un salarié supplément
+aire).
 \end_layout
 
 \begin_layout Subsection
@@ -1085,8 +1352,9 @@ Nous avons travaillé sur un scénario pessimiste et un scénario optimiste
  en 4 ans (ceci sans même prendre en compte le fait que ce marché est toujours
  en expansion).
  Le scénario pessimiste prend pour hypothèses que le temps de développement
- du site serait deux fois plus long et surtout que la pénétration dans le
- marché serait deux fois plus lente que dans la variante optimiste.
+ du site serait deux fois plus long, que la pénétration dans le marché serait
+ deux fois plus lente et que le nombre moyen de commandes par client serait
+ moitié moins que dans la variante optimiste.
 \end_layout
 
 \begin_layout Standard
@@ -1100,6 +1368,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename ventes.svg
+	lyxscale 80
 	width 13cm
 
 \end_inset
@@ -1117,7 +1386,7 @@ name "fig:ventes"
 
 \end_inset
 
-Évolution des ventes sur les quatre premières années
+Évolution des ventes sur les trois premières années
 \end_layout
 
 \end_inset
@@ -1151,10 +1420,10 @@ type
 \begin_inset space ~
 \end_inset
 
-» qui nous paraissait hautement plausible, nous avons ensuite ajouté les
- frais de ports (calculés en fonction du poids de la commande), et enfin
- notre propre marge (
-\begin_inset Formula $13\%$
+» qui nous paraissait hautement plausible à laquelle nous avons ajouté les
+ frais de ports (calculés en fonction du poids de la commande) et notre
+ propre marge (
+\begin_inset Formula $15\%$
 \end_inset
 
 ).
@@ -1175,9 +1444,8 @@ kg, soit 15
 \begin_inset space ~
 \end_inset
 
-€ de frais de ports, ce qui conduit au final à une commission d’environ
- 
-\begin_inset Formula $(90+15)/(1/13\%-1)=16\,\text{€}$
+€ de frais de ports, ainsi qu’une commission de 
+\begin_inset Formula $90*15\%=13.50\,\text{€}$
 \end_inset
 
  pour EquiDist.
@@ -1185,12 +1453,34 @@ kg, soit 15
 
 \begin_layout Standard
 Les calculs effectués pour chaque producteur nous conduisent à estimer le
- bénéfice moyen d’une commande à 24.21
+ bénéfice moyen d’une commande à 22
 \begin_inset space ~
 \end_inset
 
 €, ce qui élève le nombre de commandes nécessaires pour assurer la viabilité
- de l’activité aux alentours de 300 commandes mensuelles.
+ de l’activité aux alentours de 400 commandes mensuelles.
+\end_layout
+
+\begin_layout Standard
+Ce «
+\begin_inset space ~
+\end_inset
+
+point mort
+\begin_inset space ~
+\end_inset
+
+» sera atteint au 
+\begin_inset Formula $12^{e}$
+\end_inset
+
+ mois d’activité (resp.
+ 
+\begin_inset Formula $21{}^{e}$
+\end_inset
+
+ mois) dans le scénario optimiste (resp.
+ pessimiste).
 \end_layout
 
 \begin_layout Subsection
@@ -1201,13 +1491,14 @@ Prévisions à moyen terme
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
 	filename previsionnel.svg
+	lyxscale 75
 	width 13cm
 
 \end_inset
@@ -1246,16 +1537,16 @@ reference "fig:budget"
 
 \end_inset
 
- donne une vision à moyen terme de l’évolution des dépenses cumulées et
- des recettes cumulées sur les trois premières années d’activité, selon
- les deux scénarios possibles.
+ donne une vision à moyen terme de l’évolution des dépenses et recettes
+ cumulées sur les trois premières années d’activité, selon les deux scénarios
+ possibles.
  On observe que le bilan devient positif à partir du 
 \begin_inset Formula $20^{e}$
 \end_inset
 
  mois d’activité (resp.
  
-\begin_inset Formula $34^{e}$
+\begin_inset Formula $35{}^{e}$
 \end_inset
 
  mois) pour le scénario optimiste (resp.
@@ -1266,13 +1557,14 @@ reference "fig:budget"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
 	filename resultat.svg
+	lyxscale 80
 	width 13cm
 
 \end_inset
@@ -1312,12 +1604,12 @@ reference "fig:resultat"
 \end_inset
 
  montre l’évolution du résultat net de l’entreprise.
- La partie négative correspond à un déficit maximal de 57
+ La partie négative correspond à un déficit maximal de 58
 \begin_inset space ~
 \end_inset
 
 k€ (resp.
- 108
+ 107
 \begin_inset space ~
 \end_inset
 
@@ -1333,13 +1625,14 @@ Détail de la première année
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
 	filename detail1ereannee.svg
+	lyxscale 80
 	width 13cm
 
 \end_inset
@@ -1403,7 +1696,7 @@ Développement du système informatique (jusqu’à 2 ou 4 mois selon les scéna
 \end_layout
 
 \begin_layout Enumerate
-Mise en production et ajustements éventuels (jusqu’à 8 ou 12 mois selon
+Mise en production et ajustements éventuels (jusqu’à 9 ou 12 mois selon
  les scénarios)
 \begin_inset space ~
 \end_inset
@@ -1430,8 +1723,8 @@ s une opération commerciale afin de toucher des clients d’autres métropoles
 
 \begin_layout Standard
 Un point intéressant est que l’augmentation de notre chiffre d’affaires
- dans les douze premiers mois d’activité ne nécessite pas de dépense supplémenta
-ire.
+ dans les douze premiers mois d’activité ne nécessite quasiment pas de dépense
+ supplémentaire (la courbe jaune reste stable).
  Les bases du système informatique auront été construites, notre temps de
  travail pourra être affecté à la résolution d’éventuels problèmes ou événéments
  inattendus liés aux commandes des clients et à l’amélioration et la consolidati
@@ -1442,12 +1735,521 @@ on du système.
 \begin_inset Float table
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
-[TODO]
+\begin_inset Tabular
+<lyxtabular version="3" rows="15" columns="3">
+<features>
+<column alignment="left" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Dépenses
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Montant
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Salaires
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6,000
+\begin_inset space ~
+\end_inset
+
+€
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+70.50%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Loyers
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+500
+\begin_inset space ~
+\end_inset
+
+€
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.87%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Frais postaux et télécom
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+167
+\begin_inset space ~
+\end_inset
+
+€
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.96%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Déplacements
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+500
+\begin_inset space ~
+\end_inset
+
+€
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.87%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Matériel
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+250
+\begin_inset space ~
+\end_inset
+
+€
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.94%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Frais d’honoraires
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+417
+\begin_inset space ~
+\end_inset
+
+€
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.90%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Frais associatifs
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100
+\begin_inset space ~
+\end_inset
+
+€
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.17%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Assurance
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+160
+\begin_inset space ~
+\end_inset
+
+€
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.88%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Publicitié / Communication
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+417
+\begin_inset space ~
+\end_inset
+
+€
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.90%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Impôts
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\begin_inset space ~
+\end_inset
+
+€
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Total
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8,511
+\begin_inset space ~
+\end_inset
+
+€
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Recettes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Montant
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ventes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1,654
+\begin_inset space ~
+\end_inset
+
+€
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Total
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1,654
+\begin_inset space ~
+\end_inset
+
+€
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -1486,7 +2288,7 @@ reference "tab:1ere-annee"
 \end_inset
 
  détaille la répartition type des dépenses et recettes mensuelles.
- On observe que la majorité des dépenses (70%) est constituée par les salaires.
+ On observe que la majorité des dépenses (70%) est constituée des salaires.
 \end_layout
 
 \begin_layout Standard
