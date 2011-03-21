@@ -136,7 +136,7 @@ key "LaTerre"
 
 \begin_layout Standard
 Par ailleurs, ce système, onéreux pour les consommateurs, ne rémunère souvent
- pas correctement les producteurs, comme en témoignent des récentes manifestatio
+ pas correctement les producteurs, comme en témoignent les récentes manifestatio
 ns à ce sujet 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -180,7 +180,8 @@ rs achetant directement de gros volumes à des producteurs ou des centrales
 \begin_layout Standard
 Enfin, la grande distribution propose surtout des conditionnements de petite
  taille, sources de nombreux emballages, et jette régulièrement des invendus.
- Ces pratiques ne s’inscrivent pas une gestion durable de l’environnement.
+ Ces pratiques ne s’inscrivent pas dans le cadre d’une gestion durable de
+ l’environnement.
 \end_layout
 
 \begin_layout Standard
@@ -216,8 +217,8 @@ EquiDist est un service en ligne qui permet de mettre en relation directe
 \begin_layout Standard
 En supprimant le stockage intermédiaire, EquiDist assume des coûts de fonctionne
 ment particulièrement faibles ce qui permet de proposer des prix attractifs.
- Nos estimations montrent des prix, à qualité de produit équivalente, du
- même ordre de grandeur que ceux pratiqués dans la grande distribution,
+ Nos estimations montrent des prix, pour des produits de qualité équivalente,
+ du même ordre de grandeur que ceux pratiqués dans la grande distribution,
  et environ deux fois moins chers que ceux des autres sites de vente en
  ligne de produits alimentaires.
 \end_layout
@@ -316,8 +317,8 @@ petits
 \begin_inset space ~
 \end_inset
 
-» producteurs qui représentent des acteurs essentiels du paysage économique,
- lui donnant dynamisme et diversité
+» producteurs qui sont des acteurs essentiels du paysage économique, lui
+ donnant dynamisme et diversité
 \begin_inset space ~
 \end_inset
 
@@ -350,7 +351,7 @@ Trésorerie
 \end_layout
 
 \begin_layout Standard
-Nos estimations nous conduisent à attendre un résultat net positif au bout
+Nos estimations nous permettent d’espérer un résultat net positif au bout
  de deux à trois ans maximum.
  Un emprunt à hauteur de 100
 \begin_inset space ~
@@ -474,8 +475,8 @@ Par ailleurs, le coût de l’énergie augmente plus vite que les revenus et
 \begin_inset Formula $CO_{2}$
 \end_inset
 
- les économies réalisées par l’e-commerce en 2010), ils sont donc une opportunit
-é pour diminuer nos émissions de 
+ les économies réalisées par l’e-commerce en 2010) et représentent donc
+ une opportunité pour diminuer nos émissions de 
 \begin_inset Formula $CO_{2}$
 \end_inset
 
@@ -526,7 +527,27 @@ packaging
 \end_layout
 
 \begin_layout Standard
+Nous avons réalisé un sondage qui a été soumis à l’ensemble des promotions
+ d’étudiants en informatique à l’université de Rennes
+\begin_inset space ~
+\end_inset
+
+1 ainsi qu’à des associations étudiantes.
+ 240 personnes ont répondu aux questions sur leurs habitudes alimentaires
+ et leur éventuelle adhésion à notre système de distribution.
+ La figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:sondage"
+
+\end_inset
+
+ illustre la répartition des réponses à une de ces questions.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status collapsed
@@ -575,23 +596,7 @@ Réponses à la question «
 
 \end_inset
 
-Nous avons réalisé un sondage qui a été soumis à l’ensemble des promotions
- d’étudiants en informatique à l’université de Rennes
-\begin_inset space ~
-\end_inset
 
-1 ainsi qu’à des associations étudiantes.
- Il a été rempli par 240 personnes et contenait des questions sur leurs
- habitudes alimentaires et leur éventuelle adhésion à notre système de distribut
-ion.
- La figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:sondage"
-
-\end_inset
-
- montre la répartition des réponses à une de ces questions.
 \end_layout
 
 \begin_layout Standard
@@ -618,9 +623,9 @@ Nous avons expliqué les avantages d’EquiDist sur les plans écologiques et
 \begin_layout Standard
 Prenons un exemple pour illustrer notre position par rapport à la concurrence.
  Nous avons contacté de nombreux producteurs ou artisans dont nous avons
- obtenu les prix de vente de leurs produits.
+ obtenu les prix de vente.
  Ainsi, M.
- Stéphane Ferlin produit des noix de Grenoble AOC qu’il vend à 2.70
+ Stéphane Ferlin produit des noix de Grenoble AOC qu’il vend à 2,70
 \begin_inset space ~
 \end_inset
 
@@ -673,7 +678,7 @@ Avec EquiDist, acheter un filet de 5
 \begin_inset space ~
 \end_inset
 
-kg coûte 13.50
+kg coûte 13,50
 \begin_inset space ~
 \end_inset
 
@@ -686,13 +691,13 @@ kg coûte 13.50
 \begin_inset space ~
 \end_inset
 
-€ dans ce cas), soit un total de 21.50
+€ dans ce cas), soit un total de 21,50
 \begin_inset space ~
 \end_inset
 
 €, ce qui, ramené au kg (
 \series bold
-4.30
+4,30
 \begin_inset space ~
 \end_inset
 
@@ -709,7 +714,7 @@ Mais les calculs ne s’arrêtent pas là.
 
 kg de noix et sont proches géographiquement EquiDist leur permet de regrouper
  leur commande.
- Le total par personne descend alors à 19.50
+ Le total par personne descend alors à 19,50
 \begin_inset space ~
 \end_inset
 
@@ -721,7 +726,7 @@ kg de noix et sont proches géographiquement EquiDist leur permet de regrouper
 € (soit une diminution d’environ 10% par rapport à une commande seule, et
  un prix de 
 \series bold
-3.80
+3,80
 \begin_inset space ~
 \end_inset
 
@@ -732,8 +737,8 @@ kg de noix et sont proches géographiquement EquiDist leur permet de regrouper
 
 \begin_layout Standard
 Les noix ne sont pas un produit lourd, mais selon le poids des produits,
- les regroupements de clients peuvent faire diminuer jusqu’à 20% le total
- individuel d’une commande.
+ les regroupements de clients peuvent faire diminuer jusqu’à 20% le coût
+ d’une commande.
 \end_layout
 
 \begin_layout Standard
@@ -875,7 +880,36 @@ Business Model
 \end_layout
 
 \begin_layout Standard
+La figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:business-model"
+
+\end_inset
+
+ illustre le 
+\shape italic
+business model
+\shape default
+ de notre société.
+ À chaque fois qu’un client achète des produits à un producteur, nous prélevons
+ une commission et nous payons le producteur et le service de transport
+ (qui est externe).
+ Le prix de vente correspond donc à la somme de ces trois coûts.
+ Les fournisseurs sont —
+\begin_inset space ~
+\end_inset
+
+évidemment
+\begin_inset space ~
+\end_inset
+
+— payés immédiatement.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -917,34 +951,6 @@ Business Model
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-La figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:business-model"
-
-\end_inset
-
- illustre le 
-\shape italic
-business model
-\shape default
- de notre société.
- À chaque fois qu’un client achète des produits à un producteur, nous prélevons
- une commission et nous payons le producteur et le service de transport
- (qui est externe).
- Le prix de vente correspond donc à la somme de ces trois coûts.
- Les fournisseurs sont —
-\begin_inset space ~
-\end_inset
-
-évidemment
-\begin_inset space ~
-\end_inset
-
-— payés immédiatement.
 \end_layout
 
 \begin_layout Standard
@@ -1019,7 +1025,7 @@ Gestion des regroupements
 La gestion du regroupement des clients nécessite le développement d’un nouveau
  logiciel car aucun système d’e-commerce actuel ne fournit cette fonctionnalité.
  Ainsi, chaque client fournira ses coordonnées au système qui se chargera
- de calculer quels autres clients sont proches géographiquement.
+ d’identifier les autres clients proches géographiquement.
  Ensuite, lorsque le client s’intéressera à un producteur il pourra automatiquem
 ent connaître les clients proches de chez lui également intéressés par ce
  même producteur, et envisager un regroupement.
@@ -1027,6 +1033,7 @@ ent connaître les clients proches de chez lui également intéressés par ce
 
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -1109,6 +1116,7 @@ Si le client est intéressé par un regroupement il est automatiquement mis
 
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -1204,9 +1212,9 @@ Dans le cas d’une commande groupée, le système s’assure que tous les clien
 \end_layout
 
 \begin_layout Standard
-À ce moment seulement les paiements sont encaissés, les commandes sont transmise
-s aux producteurs et les ordres de transport sont transmis au service de
- transport.
+Ce n’est qu’à ce stade que les paiements sont encaissés, les commandes sont
+ transmises aux producteurs et les ordres de transport sont transmis au
+ service de transport.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1310,8 +1318,7 @@ Dépenses
 \end_layout
 
 \begin_layout Standard
-Les principales dépenses dues à notre activité sont constituées par les
- salaires.
+Les principales dépenses engendrées par notre activité sont les salaires.
  En effet, notre travail consiste à fournir un espace dématérialisé de rencontre
 s entre producteurs et consommateurs.
  Nous n’achetons aucune matière première pour la transformer, et nous ne
@@ -1322,11 +1329,11 @@ s entre producteurs et consommateurs.
 Le seul facteur de travail variable avec le chiffre d’affaire est l’hébergement
  du site web.
  Celui-ci dépend directement de la charge (nombre de requêtes), mais reste
- très marginal par rapport aux autres coûts, fixes.
+ très marginal par rapport aux autres coûts, qui sont fixes.
 \end_layout
 
 \begin_layout Standard
-Les dépenses moyennes mensuelles seraient de 8.5
+Les dépenses moyennes mensuelles seraient de 8,5
 \begin_inset space ~
 \end_inset
 
@@ -1347,7 +1354,7 @@ Nous avons travaillé sur un scénario pessimiste et un scénario optimiste
  pour estimer nos recettes.
  Le scénario optimiste reste cependant très prudent car il ne correspond
  à une pénétration du marché que de 
-\begin_inset Formula $1.3\%$
+\begin_inset Formula $1,3\%$
 \end_inset
 
  en 4 ans (ceci sans même prendre en compte le fait que ce marché est toujours
@@ -1359,7 +1366,19 @@ Nous avons travaillé sur un scénario pessimiste et un scénario optimiste
 \end_layout
 
 \begin_layout Standard
+La figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:ventes"
+
+\end_inset
+
+ montre l’allure de l’évolution des ventes selon les deux scénarios.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -1401,17 +1420,6 @@ name "fig:ventes"
 \end_layout
 
 \begin_layout Standard
-La figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:ventes"
-
-\end_inset
-
- montre l’allure de l’évolution des ventes selon les deux scénarios.
-\end_layout
-
-\begin_layout Standard
 Pour estimer la recette moyenne d’une commande nous avons, pour chaque producteu
 r contacté et intéressé par notre système, construit une commande «
 \begin_inset space ~
@@ -1437,8 +1445,8 @@ Par exemple, une commande regroupant 3 foyers auprès d’un producteur de
 \begin_inset space ~
 \end_inset
 
-€ donc une commission de 
-\begin_inset Formula $90*15\%=13.50\,\text{€}$
+€, donc une commission de 
+\begin_inset Formula $90*15\%=13,50\,\text{€}$
 \end_inset
 
  pour EquiDist.
@@ -1482,6 +1490,7 @@ Prévisions à moyen terme
 
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -1548,6 +1557,7 @@ reference "fig:budget"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -1608,6 +1618,8 @@ k€ (resp.
 
 k€) pour le scénario optimiste (resp.
  pessimiste).
+ Il sera donc nécessaire de réaliser un emprunt pour assurer un fond de
+ trésorerie sur cette période.
 \end_layout
 
 \begin_layout Subsection
@@ -1616,6 +1628,7 @@ Détail de la première année
 
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -1726,6 +1739,7 @@ on du système.
 
 \begin_layout Standard
 \begin_inset Float table
+placement h
 wide false
 sideways false
 status open
@@ -1788,7 +1802,11 @@ Salaires
 \begin_inset Text
 
 \begin_layout Plain Layout
-6,000
+6
+\begin_inset space ~
+\end_inset
+
+000
 \begin_inset space ~
 \end_inset
 
@@ -1801,7 +1819,7 @@ Salaires
 \begin_inset Text
 
 \begin_layout Plain Layout
-70.50%
+70,50%
 \end_layout
 
 \end_inset
@@ -1834,7 +1852,7 @@ Loyers
 \begin_inset Text
 
 \begin_layout Plain Layout
-5.87%
+5,87%
 \end_layout
 
 \end_inset
@@ -1867,7 +1885,7 @@ Frais postaux et télécom
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.96%
+1,96%
 \end_layout
 
 \end_inset
@@ -1900,7 +1918,7 @@ Déplacements
 \begin_inset Text
 
 \begin_layout Plain Layout
-5.87%
+5,87%
 \end_layout
 
 \end_inset
@@ -1933,7 +1951,7 @@ Matériel
 \begin_inset Text
 
 \begin_layout Plain Layout
-2.94%
+2,94%
 \end_layout
 
 \end_inset
@@ -1966,7 +1984,7 @@ Frais d’honoraires
 \begin_inset Text
 
 \begin_layout Plain Layout
-4.90%
+4,90%
 \end_layout
 
 \end_inset
@@ -1999,7 +2017,7 @@ Frais associatifs
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.17%
+1,17%
 \end_layout
 
 \end_inset
@@ -2032,7 +2050,7 @@ Assurance
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.88%
+1,88%
 \end_layout
 
 \end_inset
@@ -2043,7 +2061,7 @@ Assurance
 \begin_inset Text
 
 \begin_layout Plain Layout
-Publicitié / Communication
+Publicité / Communication
 \end_layout
 
 \end_inset
@@ -2065,7 +2083,7 @@ Publicitié / Communication
 \begin_inset Text
 
 \begin_layout Plain Layout
-4.90%
+4,90%
 \end_layout
 
 \end_inset
@@ -2118,7 +2136,11 @@ Total
 \begin_inset Text
 
 \begin_layout Plain Layout
-8,511
+8
+\begin_inset space ~
+\end_inset
+
+511
 \begin_inset space ~
 \end_inset
 
@@ -2186,7 +2208,11 @@ Ventes
 \begin_inset Text
 
 \begin_layout Plain Layout
-1,654
+1
+\begin_inset space ~
+\end_inset
+
+654
 \begin_inset space ~
 \end_inset
 
@@ -2219,7 +2245,11 @@ Total
 \begin_inset Text
 
 \begin_layout Plain Layout
-1,654
+1
+\begin_inset space ~
+\end_inset
+
+654
 \begin_inset space ~
 \end_inset
 
