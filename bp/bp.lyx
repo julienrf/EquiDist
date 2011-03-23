@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -318,11 +318,11 @@ petits
 \end_inset
 
 » producteurs qui sont des acteurs essentiels du paysage économique, donnant
- dynamisme et diversité
+ à ce dernier dynamisme et diversité
 \begin_inset space ~
 \end_inset
 
-à ces derniers ;
+;
 \end_layout
 
 \begin_layout Itemize
@@ -1473,13 +1473,11 @@ point mort
 \begin_inset Formula $12^{e}$
 \end_inset
 
- mois d’activité (resp.
- 
+ mois d’activité (respectivement 
 \begin_inset Formula $21{}^{e}$
 \end_inset
 
- mois) dans le scénario optimiste (resp.
- pessimiste).
+ mois) dans le scénario optimiste (respectivement pessimiste).
 \end_layout
 
 \begin_layout Subsection
@@ -1544,11 +1542,13 @@ reference "fig:budget"
 \begin_inset Formula $20^{e}$
 \end_inset
 
- mois d’activité (respectivement 
+ mois d’activité (resp.
+ 
 \begin_inset Formula $35{}^{e}$
 \end_inset
 
- mois) pour le scénario optimiste (respectivement pessimiste).
+ mois) pour le scénario optimiste (resp.
+ pessimiste).
 \end_layout
 
 \begin_layout Standard
