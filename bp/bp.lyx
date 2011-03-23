@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -211,14 +211,14 @@ EquiDist est un service en ligne qui permet de mettre en relation directe
  producteurs et consommateurs.
  Les producteurs y présentent leur travail et leurs produits de façon attractive
  (photos, vidéos, etc.), et les consommateurs commandent en ligne avec des
- possibilités de regroupement par proximité géographique.
+ possibilités de regroupement en fonction de la proximité géographique.
 \end_layout
 
 \begin_layout Standard
 En supprimant le stockage intermédiaire, EquiDist assume des coûts de fonctionne
 ment particulièrement faibles ce qui permet de proposer des prix attractifs.
- Nos estimations montrent des prix, pour des produits de qualité équivalente,
- du même ordre de grandeur que ceux pratiqués dans la grande distribution,
+ Nos estimations montrent des prix, pour des produits de même qualité, du
+ même ordre de grandeur que ceux pratiqués dans la grande distribution,
  et environ deux fois moins chers que ceux des autres sites de vente en
  ligne de produits alimentaires.
 \end_layout
@@ -317,17 +317,17 @@ petits
 \begin_inset space ~
 \end_inset
 
-» producteurs qui sont des acteurs essentiels du paysage économique, lui
- donnant dynamisme et diversité
+» producteurs qui sont des acteurs essentiels du paysage économique, donnant
+ dynamisme et diversité
 \begin_inset space ~
 \end_inset
 
-;
+à ces derniers ;
 \end_layout
 
 \begin_layout Itemize
 renforcer les liens sociaux et la vie de quartier grâce aux regroupements
- par proximité géographique
+ en fonction de la proximité géographique
 \begin_inset space ~
 \end_inset
 
@@ -1544,13 +1544,11 @@ reference "fig:budget"
 \begin_inset Formula $20^{e}$
 \end_inset
 
- mois d’activité (resp.
- 
+ mois d’activité (respectivement 
 \begin_inset Formula $35{}^{e}$
 \end_inset
 
- mois) pour le scénario optimiste (resp.
- pessimiste).
+ mois) pour le scénario optimiste (respectivement pessimiste).
 \end_layout
 
 \begin_layout Standard
