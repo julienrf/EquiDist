@@ -98,9 +98,9 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Section
-
+Résumé
 \shape italic
-Executive Summary
+
 \begin_inset Note Note
 status open
 
@@ -874,9 +874,7 @@ Ju: To be continued
 \end_layout
 
 \begin_layout Subsection
-
-\shape italic
-Business Model
+Modèle économique
 \end_layout
 
 \begin_layout Standard
